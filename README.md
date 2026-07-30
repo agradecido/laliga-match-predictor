@@ -4,7 +4,7 @@ A soccer prediction platform ("Quiniela") for the Spanish Football League (LaLig
 
 ## Tech Stack
 
-- **Backend:** PHP 8.3+, Laravel
+- **Backend:** PHP 8.4+, Laravel
 - **Frontend:** Vue 3 (Composition API, `<script setup>`) + TypeScript
 - **SPA Connector:** Inertia.js
 - **Styling:** Tailwind CSS
