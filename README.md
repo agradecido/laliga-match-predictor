@@ -1,6 +1,27 @@
 # LaLiga Quiniela
 
-![Racing de Santander](public/assets/images/team-logos/racing-santander.svg)
+<p align="center">
+  <img src="public/assets/images/team-logos/athletic-club-bilbao.svg" alt="Athletic Club" width="30" height="30">
+  <img src="public/assets/images/team-logos/atletico-madrid.svg" alt="Atlético de Madrid" width="30" height="30">
+  <img src="public/assets/images/team-logos/celta-vigo.svg" alt="Celta" width="30" height="30">
+  <img src="public/assets/images/team-logos/deportivo-alaves.svg" alt="Deportivo Alavés" width="30" height="30">
+  <img src="public/assets/images/team-logos/deportivo-la-coruna.svg" alt="RC Deportivo" width="30" height="30">
+  <img src="public/assets/images/team-logos/elche-cf.svg" alt="Elche CF" width="30" height="30">
+  <img src="public/assets/images/team-logos/fc-barcelona.svg" alt="FC Barcelona" width="30" height="30">
+  <img src="public/assets/images/team-logos/getafe-cf.svg" alt="Getafe CF" width="30" height="30">
+  <img src="public/assets/images/team-logos/levante-ud.svg" alt="Levante UD" width="30" height="30">
+  <img src="public/assets/images/team-logos/malaga-cf.svg" alt="Málaga CF" width="30" height="30">
+  <img src="public/assets/images/team-logos/osasuna.svg" alt="CA Osasuna" width="30" height="30">
+  <img src="public/assets/images/team-logos/racing-santander.svg" alt="R. Racing Club" width="30" height="30">
+  <img src="public/assets/images/team-logos/rayo-vallecano.svg" alt="Rayo Vallecano" width="30" height="30">
+  <img src="public/assets/images/team-logos/rcd-espanyol-barcelona.svg" alt="RCD Espanyol de Barcelona" width="30" height="30">
+  <img src="public/assets/images/team-logos/real-betis-balompie.svg" alt="Real Betis" width="30" height="30">
+  <img src="public/assets/images/team-logos/real-madrid.svg" alt="Real Madrid" width="30" height="30">
+  <img src="public/assets/images/team-logos/real-oviedo.svg" alt="Real Oviedo" width="30" height="30">
+  <img src="public/assets/images/team-logos/real-sociedad.svg" alt="Real Sociedad" width="30" height="30">
+  <img src="public/assets/images/team-logos/sevilla-fc.svg" alt="Sevilla FC" width="30" height="30">
+  <img src="public/assets/images/team-logos/valencia-cf.svg" alt="Valencia CF" width="30" height="30">
+</p>
 
 A soccer prediction platform ("Quiniela") for the Spanish Football League (LaLiga). Users submit 1/X/2 predictions for each matchday's fixtures before kickoff, and scores are calculated automatically once official results are entered.
 
