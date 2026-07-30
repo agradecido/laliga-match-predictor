@@ -1,5 +1,7 @@
 # LaLiga Quiniela
 
+![Racing de Santander](public/assets/images/team-logos/racing-santander.svg)
+
 A soccer prediction platform ("Quiniela") for the Spanish Football League (LaLiga). Users submit 1/X/2 predictions for each matchday's fixtures before kickoff, and scores are calculated automatically once official results are entered.
 
 ## Tech Stack
