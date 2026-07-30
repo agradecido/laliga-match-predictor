@@ -1,0 +1,2893 @@
+{
+    "season": "2026/2027",
+    "matchdays": [
+        {
+            "matchday": "Jornada 1",
+            "date": "2026-08-15",
+            "matches": [
+                {
+                    "home_team": "Deportivo Alavés",
+                    "away_team": "Getafe CF",
+                    "home_team_normalized": "deportivo-alaves",
+                    "away_team_normalized": "getafe-cf",
+                    "match_datetime": "2026-08-15T19:30:00"
+                },
+                {
+                    "home_team": "Sevilla FC",
+                    "away_team": "Rayo Vallecano",
+                    "home_team_normalized": "sevilla-fc",
+                    "away_team_normalized": "rayo-vallecano",
+                    "match_datetime": "2026-08-15T21:30:00"
+                },
+                {
+                    "home_team": "R. Racing Club",
+                    "away_team": "Villarreal CF",
+                    "home_team_normalized": "racing-santander",
+                    "away_team_normalized": "villarreal-cf",
+                    "match_datetime": "2026-08-16T17:00:00"
+                },
+                {
+                    "home_team": "RCD Espanyol de Barcelona",
+                    "away_team": "Levante UD",
+                    "home_team_normalized": "rcd-espanyol-barcelona",
+                    "away_team_normalized": "levante-ud",
+                    "match_datetime": "2026-08-16T19:00:00"
+                },
+                {
+                    "home_team": "Celta",
+                    "away_team": "CA Osasuna",
+                    "home_team_normalized": "celta-vigo",
+                    "away_team_normalized": "osasuna",
+                    "match_datetime": "2026-08-16T21:30:00"
+                },
+                {
+                    "home_team": "RC Deportivo",
+                    "away_team": "Elche CF",
+                    "home_team_normalized": "deportivo-la-coruna",
+                    "away_team_normalized": "elche-cf",
+                    "match_datetime": "2026-08-17T21:00:00"
+                },
+                {
+                    "home_team": "Atlético de Madrid",
+                    "away_team": "Málaga CF",
+                    "home_team_normalized": "atletico-madrid",
+                    "away_team_normalized": "malaga-cf",
+                    "match_datetime": "2026-08-19T21:00:00"
+                },
+                {
+                    "home_team": "Valencia CF",
+                    "away_team": "Real Betis",
+                    "home_team_normalized": "valencia-cf",
+                    "away_team_normalized": "real-betis-balompie",
+                    "match_datetime": "2026-08-25T21:00:00"
+                },
+                {
+                    "home_team": "Real Madrid",
+                    "away_team": "Real Sociedad",
+                    "home_team_normalized": "real-madrid",
+                    "away_team_normalized": "real-sociedad",
+                    "match_datetime": "2026-08-26T21:00:00"
+                },
+                {
+                    "home_team": "FC Barcelona",
+                    "away_team": "Athletic Club",
+                    "home_team_normalized": "fc-barcelona",
+                    "away_team_normalized": "athletic-club-bilbao",
+                    "match_datetime": "2026-08-27T21:00:00"
+                }
+            ]
+        },
+        {
+            "matchday": "Jornada 2",
+            "date": "2026-08-20",
+            "matches": [
+                {
+                    "home_team": "Rayo Vallecano",
+                    "away_team": "Deportivo Alavés",
+                    "home_team_normalized": "rayo-vallecano",
+                    "away_team_normalized": "deportivo-alaves",
+                    "match_datetime": "2026-08-20T21:00:00"
+                },
+                {
+                    "home_team": "Real Betis",
+                    "away_team": "Real Sociedad",
+                    "home_team_normalized": "real-betis-balompie",
+                    "away_team_normalized": "real-sociedad",
+                    "match_datetime": "2026-08-21T21:00:00"
+                },
+                {
+                    "home_team": "Athletic Club",
+                    "away_team": "Sevilla FC",
+                    "home_team_normalized": "athletic-club-bilbao",
+                    "away_team_normalized": "sevilla-fc",
+                    "match_datetime": "2026-08-22T17:00:00"
+                },
+                {
+                    "home_team": "Valencia CF",
+                    "away_team": "Celta",
+                    "home_team_normalized": "valencia-cf",
+                    "away_team_normalized": "celta-vigo",
+                    "match_datetime": "2026-08-22T19:30:00"
+                },
+                {
+                    "home_team": "RCD Espanyol de Barcelona",
+                    "away_team": "Real Madrid",
+                    "home_team_normalized": "rcd-espanyol-barcelona",
+                    "away_team_normalized": "real-madrid",
+                    "match_datetime": "2026-08-22T21:30:00"
+                },
+                {
+                    "home_team": "Atlético de Madrid",
+                    "away_team": "Villarreal CF",
+                    "home_team_normalized": "atletico-madrid",
+                    "away_team_normalized": "villarreal-cf",
+                    "match_datetime": "2026-08-23T17:00:00"
+                },
+                {
+                    "home_team": "Getafe CF",
+                    "away_team": "R. Racing Club",
+                    "home_team_normalized": "getafe-cf",
+                    "away_team_normalized": "racing-santander",
+                    "match_datetime": "2026-08-23T19:30:00"
+                },
+                {
+                    "home_team": "Elche CF",
+                    "away_team": "FC Barcelona",
+                    "home_team_normalized": "elche-cf",
+                    "away_team_normalized": "fc-barcelona",
+                    "match_datetime": "2026-08-23T21:30:00"
+                },
+                {
+                    "home_team": "CA Osasuna",
+                    "away_team": "Levante UD",
+                    "home_team_normalized": "osasuna",
+                    "away_team_normalized": "levante-ud",
+                    "match_datetime": "2025-08-24T19:30:00"
+                },
+                {
+                    "home_team": "Málaga CF",
+                    "away_team": "RC Deportivo",
+                    "home_team_normalized": "malaga-cf",
+                    "away_team_normalized": "deportivo-la-coruna",
+                    "match_datetime": "2026-08-24T21:30:00"
+                }
+            ]
+        },
+        {
+            "matchday": "Jornada 3",
+            "date": "2026-08-28",
+            "matches": [
+                {
+                    "home_team": "R. Racing Club",
+                    "away_team": "Elche CF",
+                    "home_team_normalized": "racing-santander",
+                    "away_team_normalized": "elche-cf",
+                    "match_datetime": "2026-08-28T19:00:00"
+                },
+                {
+                    "home_team": "Deportivo Alavés",
+                    "away_team": "Villarreal CF",
+                    "home_team_normalized": "deportivo-alaves",
+                    "away_team_normalized": "villarreal-cf",
+                    "match_datetime": "2026-08-28T21:30:00"
+                },
+                {
+                    "home_team": "Levante UD",
+                    "away_team": "Real Betis",
+                    "home_team_normalized": "levante-ud",
+                    "away_team_normalized": "real-betis-balompie",
+                    "match_datetime": "2026-08-29T17:00:00"
+                },
+                {
+                    "home_team": "Real Sociedad",
+                    "away_team": "RCD Espanyol de Barcelona",
+                    "home_team_normalized": "real-sociedad",
+                    "away_team_normalized": "rcd-espanyol-barcelona",
+                    "match_datetime": "2026-08-29T19:00:00"
+                },
+                {
+                    "home_team": "Sevilla FC",
+                    "away_team": "Atlético de Madrid",
+                    "home_team_normalized": "sevilla-fc",
+                    "away_team_normalized": "atletico-madrid",
+                    "match_datetime": "2026-08-29T21:30:00"
+                },
+                {
+                    "home_team": "Real Madrid",
+                    "away_team": "Málaga CF",
+                    "home_team_normalized": "real-madrid",
+                    "away_team_normalized": "malaga-cf",
+                    "match_datetime": "2026-08-30T17:00:00"
+                },
+                {
+                    "home_team": "RC Deportivo",
+                    "away_team": "Valencia CF",
+                    "home_team_normalized": "deportivo-la-coruna",
+                    "away_team_normalized": "valencia-cf",
+                    "match_datetime": "2026-08-30T19:30:00"
+                },
+                {
+                    "home_team": "Celta",
+                    "away_team": "Athletic Club",
+                    "home_team_normalized": "celta-vigo",
+                    "away_team_normalized": "athletic-club-bilbao",
+                    "match_datetime": "2026-08-30T21:30:00"
+                },
+                {
+                    "home_team": "CA Osasuna",
+                    "away_team": "Getafe CF",
+                    "home_team_normalized": "osasuna",
+                    "away_team_normalized": "getafe-cf",
+                    "match_datetime": "2026-08-31T19:30:00"
+                },
+                {
+                    "home_team": "FC Barcelona",
+                    "away_team": "Rayo Vallecano",
+                    "home_team_normalized": "fc-barcelona",
+                    "away_team_normalized": "rayo-vallecano",
+                    "match_datetime": "2026-08-31T21:30:00"
+                }
+            ]
+        },
+        {
+            "matchday": "Jornada 4",
+            "date": "2026-09-14",
+            "matches": [
+                {
+                    "home_team": "Atlético de Madrid",
+                    "away_team": "Villarreal CF",
+                    "home_team_normalized": "atletico-madrid",
+                    "away_team_normalized": "villarreal-cf",
+                    "match_datetime": "2025-09-14T20:00:00"
+                },
+                {
+                    "home_team": "FC Barcelona",
+                    "away_team": "Valencia CF",
+                    "home_team_normalized": "fc-barcelona",
+                    "away_team_normalized": "valencia-cf",
+                    "match_datetime": "2025-09-14T20:00:00"
+                },
+                {
+                    "home_team": "RC Celta",
+                    "away_team": "Girona FC",
+                    "home_team_normalized": "celta-vigo",
+                    "away_team_normalized": "girona-fc",
+                    "match_datetime": "2025-09-14T20:00:00"
+                },
+                {
+                    "home_team": "RCD Espanyol de Barcelona",
+                    "away_team": "RCD Mallorca",
+                    "home_team_normalized": "rcd-espanyol-barcelona",
+                    "away_team_normalized": "rcd-mallorca",
+                    "match_datetime": "2025-09-14T20:00:00"
+                },
+                {
+                    "home_team": "Getafe CF",
+                    "away_team": "Real Oviedo",
+                    "home_team_normalized": "getafe-cf",
+                    "away_team_normalized": "real-oviedo",
+                    "match_datetime": "2025-09-14T20:00:00"
+                },
+                {
+                    "home_team": "CA Osasuna",
+                    "away_team": "Rayo Vallecano",
+                    "home_team_normalized": "osasuna",
+                    "away_team_normalized": "rayo-vallecano",
+                    "match_datetime": "2025-09-14T20:00:00"
+                },
+                {
+                    "home_team": "Athletic Club",
+                    "away_team": "Deportivo Alavés",
+                    "home_team_normalized": "athletic-club-bilbao",
+                    "away_team_normalized": "deportivo-alaves",
+                    "match_datetime": "2025-09-14T20:00:00"
+                },
+                {
+                    "home_team": "Levante UD",
+                    "away_team": "Real Betis",
+                    "home_team_normalized": "levante-ud",
+                    "away_team_normalized": "real-betis-balompie",
+                    "match_datetime": "2025-09-14T20:00:00"
+                },
+                {
+                    "home_team": "Sevilla FC",
+                    "away_team": "Elche CF",
+                    "home_team_normalized": "sevilla-fc",
+                    "away_team_normalized": "elche-cf",
+                    "match_datetime": "2025-09-14T20:00:00"
+                },
+                {
+                    "home_team": "Real Sociedad",
+                    "away_team": "Real Madrid",
+                    "home_team_normalized": "real-sociedad",
+                    "away_team_normalized": "real-madrid",
+                    "match_datetime": "2025-09-14T20:00:00"
+                }
+            ]
+        },
+        {
+            "matchday": "Jornada 5",
+            "date": "2026-09-21",
+            "matches": [
+                {
+                    "home_team": "Deportivo Alavés",
+                    "away_team": "Sevilla FC",
+                    "home_team_normalized": "deportivo-alaves",
+                    "away_team_normalized": "sevilla-fc",
+                    "match_datetime": "2025-09-21T20:00:00"
+                },
+                {
+                    "home_team": "FC Barcelona",
+                    "away_team": "Getafe CF",
+                    "home_team_normalized": "fc-barcelona",
+                    "away_team_normalized": "getafe-cf",
+                    "match_datetime": "2025-09-21T20:00:00"
+                },
+                {
+                    "home_team": "Real Betis",
+                    "away_team": "Real Sociedad",
+                    "home_team_normalized": "real-betis-balompie",
+                    "away_team_normalized": "real-sociedad",
+                    "match_datetime": "2025-09-21T20:00:00"
+                },
+                {
+                    "home_team": "Elche CF",
+                    "away_team": "Real Oviedo",
+                    "home_team_normalized": "elche-cf",
+                    "away_team_normalized": "real-oviedo",
+                    "match_datetime": "2025-09-21T20:00:00"
+                },
+                {
+                    "home_team": "Girona FC",
+                    "away_team": "Levante UD",
+                    "home_team_normalized": "girona-fc",
+                    "away_team_normalized": "levante-ud",
+                    "match_datetime": "2025-09-21T20:00:00"
+                },
+                {
+                    "home_team": "Valencia CF",
+                    "away_team": "Athletic Club",
+                    "home_team_normalized": "valencia-cf",
+                    "away_team_normalized": "athletic-club-bilbao",
+                    "match_datetime": "2025-09-21T20:00:00"
+                },
+                {
+                    "home_team": "RCD Mallorca",
+                    "away_team": "Atlético de Madrid",
+                    "home_team_normalized": "rcd-mallorca",
+                    "away_team_normalized": "atletico-madrid",
+                    "match_datetime": "2025-09-21T20:00:00"
+                },
+                {
+                    "home_team": "Rayo Vallecano",
+                    "away_team": "RC Celta",
+                    "home_team_normalized": "rayo-vallecano",
+                    "away_team_normalized": "celta-vigo",
+                    "match_datetime": "2025-09-21T20:00:00"
+                },
+                {
+                    "home_team": "Real Madrid",
+                    "away_team": "RCD Espanyol de Barcelona",
+                    "home_team_normalized": "real-madrid",
+                    "away_team_normalized": "rcd-espanyol-barcelona",
+                    "match_datetime": "2025-09-21T20:00:00"
+                },
+                {
+                    "home_team": "Villarreal CF",
+                    "away_team": "CA Osasuna",
+                    "home_team_normalized": "villarreal-cf",
+                    "away_team_normalized": "osasuna",
+                    "match_datetime": "2025-09-21T20:00:00"
+                }
+            ]
+        },
+        {
+            "matchday": "Jornada 6",
+            "date": "2026-09-24",
+            "matches": [
+                {
+                    "home_team": "Athletic Club",
+                    "away_team": "Girona FC",
+                    "home_team_normalized": "athletic-club-bilbao",
+                    "away_team_normalized": "girona-fc",
+                    "match_datetime": "2025-09-24T20:00:00"
+                },
+                {
+                    "home_team": "Atlético de Madrid",
+                    "away_team": "Rayo Vallecano",
+                    "home_team_normalized": "atletico-madrid",
+                    "away_team_normalized": "rayo-vallecano",
+                    "match_datetime": "2025-09-24T20:00:00"
+                },
+                {
+                    "home_team": "RCD Espanyol de Barcelona",
+                    "away_team": "Valencia CF",
+                    "home_team_normalized": "rcd-espanyol-barcelona",
+                    "away_team_normalized": "valencia-cf",
+                    "match_datetime": "2025-09-24T20:00:00"
+                },
+                {
+                    "home_team": "Levante UD",
+                    "away_team": "Real Madrid",
+                    "home_team_normalized": "levante-ud",
+                    "away_team_normalized": "real-madrid",
+                    "match_datetime": "2025-09-24T20:00:00"
+                },
+                {
+                    "home_team": "Sevilla FC",
+                    "away_team": "Villarreal CF",
+                    "home_team_normalized": "sevilla-fc",
+                    "away_team_normalized": "villarreal-cf",
+                    "match_datetime": "2025-09-24T20:00:00"
+                },
+                {
+                    "home_team": "Getafe CF",
+                    "away_team": "Deportivo Alavés",
+                    "home_team_normalized": "getafe-cf",
+                    "away_team_normalized": "deportivo-alaves",
+                    "match_datetime": "2025-09-24T20:00:00"
+                },
+                {
+                    "home_team": "Real Oviedo",
+                    "away_team": "FC Barcelona",
+                    "home_team_normalized": "real-oviedo",
+                    "away_team_normalized": "fc-barcelona",
+                    "match_datetime": "2025-09-24T20:00:00"
+                },
+                {
+                    "home_team": "RC Celta",
+                    "away_team": "Real Betis",
+                    "home_team_normalized": "celta-vigo",
+                    "away_team_normalized": "real-betis-balompie",
+                    "match_datetime": "2025-09-24T20:00:00"
+                },
+                {
+                    "home_team": "CA Osasuna",
+                    "away_team": "Elche CF",
+                    "home_team_normalized": "osasuna",
+                    "away_team_normalized": "elche-cf",
+                    "match_datetime": "2025-09-24T20:00:00"
+                },
+                {
+                    "home_team": "Real Sociedad",
+                    "away_team": "RCD Mallorca",
+                    "home_team_normalized": "real-sociedad",
+                    "away_team_normalized": "rcd-mallorca",
+                    "match_datetime": "2025-09-24T20:00:00"
+                }
+            ]
+        },
+        {
+            "matchday": "Jornada 7",
+            "date": "2026-09-28",
+            "matches": [
+                {
+                    "home_team": "Atlético de Madrid",
+                    "away_team": "Real Madrid",
+                    "home_team_normalized": "atletico-madrid",
+                    "away_team_normalized": "real-madrid",
+                    "match_datetime": "2025-09-28T20:00:00"
+                },
+                {
+                    "home_team": "FC Barcelona",
+                    "away_team": "Real Sociedad",
+                    "home_team_normalized": "fc-barcelona",
+                    "away_team_normalized": "real-sociedad",
+                    "match_datetime": "2025-09-28T20:00:00"
+                },
+                {
+                    "home_team": "Real Betis",
+                    "away_team": "CA Osasuna",
+                    "home_team_normalized": "real-betis-balompie",
+                    "away_team_normalized": "osasuna",
+                    "match_datetime": "2025-09-28T20:00:00"
+                },
+                {
+                    "home_team": "Getafe CF",
+                    "away_team": "Levante UD",
+                    "home_team_normalized": "getafe-cf",
+                    "away_team_normalized": "levante-ud",
+                    "match_datetime": "2025-09-28T20:00:00"
+                },
+                {
+                    "home_team": "Rayo Vallecano",
+                    "away_team": "Sevilla FC",
+                    "home_team_normalized": "rayo-vallecano",
+                    "away_team_normalized": "sevilla-fc",
+                    "match_datetime": "2025-09-28T20:00:00"
+                },
+                {
+                    "home_team": "RCD Mallorca",
+                    "away_team": "Deportivo Alavés",
+                    "home_team_normalized": "rcd-mallorca",
+                    "away_team_normalized": "deportivo-alaves",
+                    "match_datetime": "2025-09-28T20:00:00"
+                },
+                {
+                    "home_team": "Villarreal CF",
+                    "away_team": "Athletic Club",
+                    "home_team_normalized": "villarreal-cf",
+                    "away_team_normalized": "athletic-club-bilbao",
+                    "match_datetime": "2025-09-28T20:00:00"
+                },
+                {
+                    "home_team": "Elche CF",
+                    "away_team": "RC Celta",
+                    "home_team_normalized": "elche-cf",
+                    "away_team_normalized": "celta-vigo",
+                    "match_datetime": "2025-09-28T20:00:00"
+                },
+                {
+                    "home_team": "Girona FC",
+                    "away_team": "RCD Espanyol de Barcelona",
+                    "home_team_normalized": "girona-fc",
+                    "away_team_normalized": "rcd-espanyol-barcelona",
+                    "match_datetime": "2025-09-28T20:00:00"
+                },
+                {
+                    "home_team": "Valencia CF",
+                    "away_team": "Real Oviedo",
+                    "home_team_normalized": "valencia-cf",
+                    "away_team_normalized": "real-oviedo",
+                    "match_datetime": "2025-09-28T20:00:00"
+                }
+            ]
+        },
+        {
+            "matchday": "Jornada 8",
+            "date": "2026-10-05",
+            "matches": [
+                {
+                    "home_team": "Deportivo Alavés",
+                    "away_team": "Elche CF",
+                    "home_team_normalized": "deportivo-alaves",
+                    "away_team_normalized": "elche-cf",
+                    "match_datetime": "2025-10-05T20:00:00"
+                },
+                {
+                    "home_team": "Athletic Club",
+                    "away_team": "RCD Mallorca",
+                    "home_team_normalized": "athletic-club-bilbao",
+                    "away_team_normalized": "rcd-mallorca",
+                    "match_datetime": "2025-10-05T20:00:00"
+                },
+                {
+                    "home_team": "Girona FC",
+                    "away_team": "Valencia CF",
+                    "home_team_normalized": "girona-fc",
+                    "away_team_normalized": "valencia-cf",
+                    "match_datetime": "2025-10-05T20:00:00"
+                },
+                {
+                    "home_team": "Real Madrid",
+                    "away_team": "Villarreal CF",
+                    "home_team_normalized": "real-madrid",
+                    "away_team_normalized": "villarreal-cf",
+                    "match_datetime": "2025-10-05T20:00:00"
+                },
+                {
+                    "home_team": "RC Celta",
+                    "away_team": "Atlético de Madrid",
+                    "home_team_normalized": "celta-vigo",
+                    "away_team_normalized": "atletico-madrid",
+                    "match_datetime": "2025-10-05T20:00:00"
+                },
+                {
+                    "home_team": "Sevilla FC",
+                    "away_team": "FC Barcelona",
+                    "home_team_normalized": "sevilla-fc",
+                    "away_team_normalized": "fc-barcelona",
+                    "match_datetime": "2025-10-05T20:00:00"
+                },
+                {
+                    "home_team": "RCD Espanyol de Barcelona",
+                    "away_team": "Real Betis",
+                    "home_team_normalized": "rcd-espanyol-barcelona",
+                    "away_team_normalized": "real-betis-balompie",
+                    "match_datetime": "2025-10-05T20:00:00"
+                },
+                {
+                    "home_team": "CA Osasuna",
+                    "away_team": "Getafe CF",
+                    "home_team_normalized": "osasuna",
+                    "away_team_normalized": "getafe-cf",
+                    "match_datetime": "2025-10-05T20:00:00"
+                },
+                {
+                    "home_team": "Real Oviedo",
+                    "away_team": "Levante UD",
+                    "home_team_normalized": "real-oviedo",
+                    "away_team_normalized": "levante-ud",
+                    "match_datetime": "2025-10-05T20:00:00"
+                },
+                {
+                    "home_team": "Real Sociedad",
+                    "away_team": "Rayo Vallecano",
+                    "home_team_normalized": "real-sociedad",
+                    "away_team_normalized": "rayo-vallecano",
+                    "match_datetime": "2025-10-05T20:00:00"
+                }
+            ]
+        },
+        {
+            "matchday": "Jornada 9",
+            "date": "2026-10-19",
+            "matches": [
+                {
+                    "home_team": "Deportivo Alavés",
+                    "away_team": "Valencia CF",
+                    "home_team_normalized": "deportivo-alaves",
+                    "away_team_normalized": "valencia-cf",
+                    "match_datetime": "2025-10-19T20:00:00"
+                },
+                {
+                    "home_team": "Atlético de Madrid",
+                    "away_team": "CA Osasuna",
+                    "home_team_normalized": "atletico-madrid",
+                    "away_team_normalized": "osasuna",
+                    "match_datetime": "2025-10-19T20:00:00"
+                },
+                {
+                    "home_team": "FC Barcelona",
+                    "away_team": "Girona FC",
+                    "home_team_normalized": "fc-barcelona",
+                    "away_team_normalized": "girona-fc",
+                    "match_datetime": "2025-10-19T20:00:00"
+                },
+                {
+                    "home_team": "RC Celta",
+                    "away_team": "Real Sociedad",
+                    "home_team_normalized": "celta-vigo",
+                    "away_team_normalized": "real-sociedad",
+                    "match_datetime": "2025-10-19T20:00:00"
+                },
+                {
+                    "home_team": "Getafe CF",
+                    "away_team": "Real Madrid",
+                    "home_team_normalized": "getafe-cf",
+                    "away_team_normalized": "real-madrid",
+                    "match_datetime": "2025-10-19T20:00:00"
+                },
+                {
+                    "home_team": "Levante UD",
+                    "away_team": "Rayo Vallecano",
+                    "home_team_normalized": "levante-ud",
+                    "away_team_normalized": "rayo-vallecano",
+                    "match_datetime": "2025-10-19T20:00:00"
+                },
+                {
+                    "home_team": "Elche CF",
+                    "away_team": "Athletic Club",
+                    "home_team_normalized": "elche-cf",
+                    "away_team_normalized": "athletic-club-bilbao",
+                    "match_datetime": "2025-10-19T20:00:00"
+                },
+                {
+                    "home_team": "Villarreal CF",
+                    "away_team": "Real Betis",
+                    "home_team_normalized": "villarreal-cf",
+                    "away_team_normalized": "real-betis-balompie",
+                    "match_datetime": "2025-10-19T20:00:00"
+                },
+                {
+                    "home_team": "Real Oviedo",
+                    "away_team": "RCD Espanyol de Barcelona",
+                    "home_team_normalized": "real-oviedo",
+                    "away_team_normalized": "rcd-espanyol-barcelona",
+                    "match_datetime": "2025-10-19T20:00:00"
+                },
+                {
+                    "home_team": "Sevilla FC",
+                    "away_team": "RCD Mallorca",
+                    "home_team_normalized": "sevilla-fc",
+                    "away_team_normalized": "rcd-mallorca",
+                    "match_datetime": "2025-10-19T20:00:00"
+                }
+            ]
+        },
+        {
+            "matchday": "Jornada 10",
+            "date": "2026-10-26",
+            "matches": [
+                {
+                    "home_team": "Athletic Club",
+                    "away_team": "Getafe CF",
+                    "home_team_normalized": "athletic-club-bilbao",
+                    "away_team_normalized": "getafe-cf",
+                    "match_datetime": "2025-10-26T20:00:00"
+                },
+                {
+                    "home_team": "Girona FC",
+                    "away_team": "Real Oviedo",
+                    "home_team_normalized": "girona-fc",
+                    "away_team_normalized": "real-oviedo",
+                    "match_datetime": "2025-10-26T20:00:00"
+                },
+                {
+                    "home_team": "Real Sociedad",
+                    "away_team": "Sevilla FC",
+                    "home_team_normalized": "real-sociedad",
+                    "away_team_normalized": "sevilla-fc",
+                    "match_datetime": "2025-10-26T20:00:00"
+                },
+                {
+                    "home_team": "Valencia CF",
+                    "away_team": "Villarreal CF",
+                    "home_team_normalized": "valencia-cf",
+                    "away_team_normalized": "villarreal-cf",
+                    "match_datetime": "2025-10-26T20:00:00"
+                },
+                {
+                    "home_team": "Rayo Vallecano",
+                    "away_team": "Deportivo Alavés",
+                    "home_team_normalized": "rayo-vallecano",
+                    "away_team_normalized": "deportivo-alaves",
+                    "match_datetime": "2025-10-26T20:00:00"
+                },
+                {
+                    "home_team": "Real Betis",
+                    "away_team": "Atlético de Madrid",
+                    "home_team_normalized": "real-betis-balompie",
+                    "away_team_normalized": "atletico-madrid",
+                    "match_datetime": "2025-10-26T20:00:00"
+                },
+                {
+                    "home_team": "Real Madrid",
+                    "away_team": "FC Barcelona",
+                    "home_team_normalized": "real-madrid",
+                    "away_team_normalized": "fc-barcelona",
+                    "match_datetime": "2025-10-26T20:00:00"
+                },
+                {
+                    "home_team": "CA Osasuna",
+                    "away_team": "RC Celta",
+                    "home_team_normalized": "osasuna",
+                    "away_team_normalized": "celta-vigo",
+                    "match_datetime": "2025-10-26T20:00:00"
+                },
+                {
+                    "home_team": "RCD Espanyol de Barcelona",
+                    "away_team": "Elche CF",
+                    "home_team_normalized": "rcd-espanyol-barcelona",
+                    "away_team_normalized": "elche-cf",
+                    "match_datetime": "2025-10-26T20:00:00"
+                },
+                {
+                    "home_team": "RCD Mallorca",
+                    "away_team": "Levante UD",
+                    "home_team_normalized": "rcd-mallorca",
+                    "away_team_normalized": "levante-ud",
+                    "match_datetime": "2025-10-26T20:00:00"
+                }
+            ]
+        },
+        {
+            "matchday": "Jornada 11",
+            "date": "2026-11-02",
+            "matches": [
+                {
+                    "home_team": "Deportivo Alavés",
+                    "away_team": "RCD Espanyol de Barcelona",
+                    "home_team_normalized": "deportivo-alaves",
+                    "away_team_normalized": "rcd-espanyol-barcelona",
+                    "match_datetime": "2025-11-02T20:00:00"
+                },
+                {
+                    "home_team": "Atlético de Madrid",
+                    "away_team": "Sevilla FC",
+                    "home_team_normalized": "atletico-madrid",
+                    "away_team_normalized": "sevilla-fc",
+                    "match_datetime": "2025-11-02T20:00:00"
+                },
+                {
+                    "home_team": "FC Barcelona",
+                    "away_team": "Elche CF",
+                    "home_team_normalized": "fc-barcelona",
+                    "away_team_normalized": "elche-cf",
+                    "match_datetime": "2025-11-02T20:00:00"
+                },
+                {
+                    "home_team": "Real Betis",
+                    "away_team": "RCD Mallorca",
+                    "home_team_normalized": "real-betis-balompie",
+                    "away_team_normalized": "rcd-mallorca",
+                    "match_datetime": "2025-11-02T20:00:00"
+                },
+                {
+                    "home_team": "Getafe CF",
+                    "away_team": "Girona FC",
+                    "home_team_normalized": "getafe-cf",
+                    "away_team_normalized": "girona-fc",
+                    "match_datetime": "2025-11-02T20:00:00"
+                },
+                {
+                    "home_team": "Real Madrid",
+                    "away_team": "Valencia CF",
+                    "home_team_normalized": "real-madrid",
+                    "away_team_normalized": "valencia-cf",
+                    "match_datetime": "2025-11-02T20:00:00"
+                },
+                {
+                    "home_team": "Real Sociedad",
+                    "away_team": "Athletic Club",
+                    "home_team_normalized": "real-sociedad",
+                    "away_team_normalized": "athletic-club-bilbao",
+                    "match_datetime": "2025-11-02T20:00:00"
+                },
+                {
+                    "home_team": "Levante UD",
+                    "away_team": "RC Celta",
+                    "home_team_normalized": "levante-ud",
+                    "away_team_normalized": "celta-vigo",
+                    "match_datetime": "2025-11-02T20:00:00"
+                },
+                {
+                    "home_team": "Real Oviedo",
+                    "away_team": "CA Osasuna",
+                    "home_team_normalized": "real-oviedo",
+                    "away_team_normalized": "osasuna",
+                    "match_datetime": "2025-11-02T20:00:00"
+                },
+                {
+                    "home_team": "Villarreal CF",
+                    "away_team": "Rayo Vallecano",
+                    "home_team_normalized": "villarreal-cf",
+                    "away_team_normalized": "rayo-vallecano",
+                    "match_datetime": "2025-11-02T20:00:00"
+                }
+            ]
+        },
+        {
+            "matchday": "Jornada 12",
+            "date": "2026-11-09",
+            "matches": [
+                {
+                    "home_team": "Athletic Club",
+                    "away_team": "Real Oviedo",
+                    "home_team_normalized": "athletic-club-bilbao",
+                    "away_team_normalized": "real-oviedo",
+                    "match_datetime": "2025-11-09T20:00:00"
+                },
+                {
+                    "home_team": "Atlético de Madrid",
+                    "away_team": "Levante UD",
+                    "home_team_normalized": "atletico-madrid",
+                    "away_team_normalized": "levante-ud",
+                    "match_datetime": "2025-11-09T20:00:00"
+                },
+                {
+                    "home_team": "Elche CF",
+                    "away_team": "Real Sociedad",
+                    "home_team_normalized": "elche-cf",
+                    "away_team_normalized": "real-sociedad",
+                    "match_datetime": "2025-11-09T20:00:00"
+                },
+                {
+                    "home_team": "RCD Espanyol de Barcelona",
+                    "away_team": "Villarreal CF",
+                    "home_team_normalized": "rcd-espanyol-barcelona",
+                    "away_team_normalized": "villarreal-cf",
+                    "match_datetime": "2025-11-09T20:00:00"
+                },
+                {
+                    "home_team": "Rayo Vallecano",
+                    "away_team": "Real Madrid",
+                    "home_team_normalized": "rayo-vallecano",
+                    "away_team_normalized": "real-madrid",
+                    "match_datetime": "2025-11-09T20:00:00"
+                },
+                {
+                    "home_team": "Girona FC",
+                    "away_team": "Deportivo Alavés",
+                    "home_team_normalized": "girona-fc",
+                    "away_team_normalized": "deportivo-alaves",
+                    "match_datetime": "2025-11-09T20:00:00"
+                },
+                {
+                    "home_team": "RC Celta",
+                    "away_team": "FC Barcelona",
+                    "home_team_normalized": "celta-vigo",
+                    "away_team_normalized": "fc-barcelona",
+                    "match_datetime": "2025-11-09T20:00:00"
+                },
+                {
+                    "home_team": "Valencia CF",
+                    "away_team": "Real Betis",
+                    "home_team_normalized": "valencia-cf",
+                    "away_team_normalized": "real-betis-balompie",
+                    "match_datetime": "2025-11-09T20:00:00"
+                },
+                {
+                    "home_team": "RCD Mallorca",
+                    "away_team": "Getafe CF",
+                    "home_team_normalized": "rcd-mallorca",
+                    "away_team_normalized": "getafe-cf",
+                    "match_datetime": "2025-11-09T20:00:00"
+                },
+                {
+                    "home_team": "Sevilla FC",
+                    "away_team": "CA Osasuna",
+                    "home_team_normalized": "sevilla-fc",
+                    "away_team_normalized": "osasuna",
+                    "match_datetime": "2025-11-09T20:00:00"
+                }
+            ]
+        },
+        {
+            "matchday": "Jornada 13",
+            "date": "2026-11-23",
+            "matches": [
+                {
+                    "home_team": "Deportivo Alavés",
+                    "away_team": "RC Celta",
+                    "home_team_normalized": "deportivo-alaves",
+                    "away_team_normalized": "celta-vigo",
+                    "match_datetime": "2025-11-23T20:00:00"
+                },
+                {
+                    "home_team": "Real Betis",
+                    "away_team": "Girona FC",
+                    "home_team_normalized": "real-betis-balompie",
+                    "away_team_normalized": "girona-fc",
+                    "match_datetime": "2025-11-23T20:00:00"
+                },
+                {
+                    "home_team": "Elche CF",
+                    "away_team": "Real Madrid",
+                    "home_team_normalized": "elche-cf",
+                    "away_team_normalized": "real-madrid",
+                    "match_datetime": "2025-11-23T20:00:00"
+                },
+                {
+                    "home_team": "RCD Espanyol de Barcelona",
+                    "away_team": "Sevilla FC",
+                    "home_team_normalized": "rcd-espanyol-barcelona",
+                    "away_team_normalized": "sevilla-fc",
+                    "match_datetime": "2025-11-23T20:00:00"
+                },
+                {
+                    "home_team": "CA Osasuna",
+                    "away_team": "Real Sociedad",
+                    "home_team_normalized": "osasuna",
+                    "away_team_normalized": "real-sociedad",
+                    "match_datetime": "2025-11-23T20:00:00"
+                },
+                {
+                    "home_team": "Real Oviedo",
+                    "away_team": "Rayo Vallecano",
+                    "home_team_normalized": "real-oviedo",
+                    "away_team_normalized": "rayo-vallecano",
+                    "match_datetime": "2025-11-23T20:00:00"
+                },
+                {
+                    "home_team": "FC Barcelona",
+                    "away_team": "Athletic Club",
+                    "home_team_normalized": "fc-barcelona",
+                    "away_team_normalized": "athletic-club-bilbao",
+                    "match_datetime": "2025-11-23T20:00:00"
+                },
+                {
+                    "home_team": "Getafe CF",
+                    "away_team": "Atlético de Madrid",
+                    "home_team_normalized": "getafe-cf",
+                    "away_team_normalized": "atletico-madrid",
+                    "match_datetime": "2025-11-23T20:00:00"
+                },
+                {
+                    "home_team": "Valencia CF",
+                    "away_team": "Levante UD",
+                    "home_team_normalized": "valencia-cf",
+                    "away_team_normalized": "levante-ud",
+                    "match_datetime": "2025-11-23T20:00:00"
+                },
+                {
+                    "home_team": "Villarreal CF",
+                    "away_team": "RCD Mallorca",
+                    "home_team_normalized": "villarreal-cf",
+                    "away_team_normalized": "rcd-mallorca",
+                    "match_datetime": "2025-11-23T20:00:00"
+                }
+            ]
+        },
+        {
+            "matchday": "Jornada 14",
+            "date": "2026-11-30",
+            "matches": [
+                {
+                    "home_team": "Atlético de Madrid",
+                    "away_team": "Real Oviedo",
+                    "home_team_normalized": "atletico-madrid",
+                    "away_team_normalized": "real-oviedo",
+                    "match_datetime": "2025-11-30T20:00:00"
+                },
+                {
+                    "home_team": "RC Celta",
+                    "away_team": "RCD Espanyol de Barcelona",
+                    "home_team_normalized": "celta-vigo",
+                    "away_team_normalized": "rcd-espanyol-barcelona",
+                    "match_datetime": "2025-11-30T20:00:00"
+                },
+                {
+                    "home_team": "Girona FC",
+                    "away_team": "Real Madrid",
+                    "home_team_normalized": "girona-fc",
+                    "away_team_normalized": "real-madrid",
+                    "match_datetime": "2025-11-30T20:00:00"
+                },
+                {
+                    "home_team": "RCD Mallorca",
+                    "away_team": "CA Osasuna",
+                    "home_team_normalized": "rcd-mallorca",
+                    "away_team_normalized": "osasuna",
+                    "match_datetime": "2025-11-30T20:00:00"
+                },
+                {
+                    "home_team": "Rayo Vallecano",
+                    "away_team": "Valencia CF",
+                    "home_team_normalized": "rayo-vallecano",
+                    "away_team_normalized": "valencia-cf",
+                    "match_datetime": "2025-11-30T20:00:00"
+                },
+                {
+                    "home_team": "Real Sociedad",
+                    "away_team": "Villarreal CF",
+                    "home_team_normalized": "real-sociedad",
+                    "away_team_normalized": "villarreal-cf",
+                    "match_datetime": "2025-11-30T20:00:00"
+                },
+                {
+                    "home_team": "FC Barcelona",
+                    "away_team": "Deportivo Alavés",
+                    "home_team_normalized": "fc-barcelona",
+                    "away_team_normalized": "deportivo-alaves",
+                    "match_datetime": "2025-11-30T20:00:00"
+                },
+                {
+                    "home_team": "Levante UD",
+                    "away_team": "Athletic Club",
+                    "home_team_normalized": "levante-ud",
+                    "away_team_normalized": "athletic-club-bilbao",
+                    "match_datetime": "2025-11-30T20:00:00"
+                },
+                {
+                    "home_team": "Sevilla FC",
+                    "away_team": "Real Betis",
+                    "home_team_normalized": "sevilla-fc",
+                    "away_team_normalized": "real-betis-balompie",
+                    "match_datetime": "2025-11-30T20:00:00"
+                },
+                {
+                    "home_team": "Getafe CF",
+                    "away_team": "Elche CF",
+                    "home_team_normalized": "getafe-cf",
+                    "away_team_normalized": "elche-cf",
+                    "match_datetime": "2025-11-30T20:00:00"
+                }
+            ]
+        },
+        {
+            "matchday": "Jornada 15",
+            "date": "2026-12-07",
+            "matches": [
+                {
+                    "home_team": "Deportivo Alavés",
+                    "away_team": "Real Sociedad",
+                    "home_team_normalized": "deportivo-alaves",
+                    "away_team_normalized": "real-sociedad",
+                    "match_datetime": "2025-12-07T20:00:00"
+                },
+                {
+                    "home_team": "Athletic Club",
+                    "away_team": "Atlético de Madrid",
+                    "home_team_normalized": "athletic-club-bilbao",
+                    "away_team_normalized": "atletico-madrid",
+                    "match_datetime": "2025-12-07T20:00:00"
+                },
+                {
+                    "home_team": "Elche CF",
+                    "away_team": "Girona FC",
+                    "home_team_normalized": "elche-cf",
+                    "away_team_normalized": "girona-fc",
+                    "match_datetime": "2025-12-07T20:00:00"
+                },
+                {
+                    "home_team": "RCD Espanyol de Barcelona",
+                    "away_team": "Rayo Vallecano",
+                    "home_team_normalized": "rcd-espanyol-barcelona",
+                    "away_team_normalized": "rayo-vallecano",
+                    "match_datetime": "2025-12-07T20:00:00"
+                },
+                {
+                    "home_team": "Real Betis",
+                    "away_team": "FC Barcelona",
+                    "home_team_normalized": "real-betis-balompie",
+                    "away_team_normalized": "fc-barcelona",
+                    "match_datetime": "2025-12-07T20:00:00"
+                },
+                {
+                    "home_team": "Real Madrid",
+                    "away_team": "RC Celta",
+                    "home_team_normalized": "real-madrid",
+                    "away_team_normalized": "celta-vigo",
+                    "match_datetime": "2025-12-07T20:00:00"
+                },
+                {
+                    "home_team": "Villarreal CF",
+                    "away_team": "Getafe CF",
+                    "home_team_normalized": "villarreal-cf",
+                    "away_team_normalized": "getafe-cf",
+                    "match_datetime": "2025-12-07T20:00:00"
+                },
+                {
+                    "home_team": "CA Osasuna",
+                    "away_team": "Levante UD",
+                    "home_team_normalized": "osasuna",
+                    "away_team_normalized": "levante-ud",
+                    "match_datetime": "2025-12-07T20:00:00"
+                },
+                {
+                    "home_team": "Real Oviedo",
+                    "away_team": "RCD Mallorca",
+                    "home_team_normalized": "real-oviedo",
+                    "away_team_normalized": "rcd-mallorca",
+                    "match_datetime": "2025-12-07T20:00:00"
+                },
+                {
+                    "home_team": "Valencia CF",
+                    "away_team": "Sevilla FC",
+                    "home_team_normalized": "valencia-cf",
+                    "away_team_normalized": "sevilla-fc",
+                    "match_datetime": "2025-12-07T20:00:00"
+                }
+            ]
+        },
+        {
+            "matchday": "Jornada 16",
+            "date": "2026-12-14",
+            "matches": [
+                {
+                    "home_team": "Deportivo Alavés",
+                    "away_team": "Real Madrid",
+                    "home_team_normalized": "deportivo-alaves",
+                    "away_team_normalized": "real-madrid",
+                    "match_datetime": "2025-12-14T20:00:00"
+                },
+                {
+                    "home_team": "Atlético de Madrid",
+                    "away_team": "Valencia CF",
+                    "home_team_normalized": "atletico-madrid",
+                    "away_team_normalized": "valencia-cf",
+                    "match_datetime": "2025-12-14T20:00:00"
+                },
+                {
+                    "home_team": "FC Barcelona",
+                    "away_team": "CA Osasuna",
+                    "home_team_normalized": "fc-barcelona",
+                    "away_team_normalized": "osasuna",
+                    "match_datetime": "2025-12-14T20:00:00"
+                },
+                {
+                    "home_team": "Levante UD",
+                    "away_team": "Villarreal CF",
+                    "home_team_normalized": "levante-ud",
+                    "away_team_normalized": "villarreal-cf",
+                    "match_datetime": "2025-12-14T20:00:00"
+                },
+                {
+                    "home_team": "RC Celta",
+                    "away_team": "Athletic Club",
+                    "home_team_normalized": "celta-vigo",
+                    "away_team_normalized": "athletic-club-bilbao",
+                    "match_datetime": "2025-12-14T20:00:00"
+                },
+                {
+                    "home_team": "Rayo Vallecano",
+                    "away_team": "Real Betis",
+                    "home_team_normalized": "rayo-vallecano",
+                    "away_team_normalized": "real-betis-balompie",
+                    "match_datetime": "2025-12-14T20:00:00"
+                },
+                {
+                    "home_team": "RCD Mallorca",
+                    "away_team": "Elche CF",
+                    "home_team_normalized": "rcd-mallorca",
+                    "away_team_normalized": "elche-cf",
+                    "match_datetime": "2025-12-14T20:00:00"
+                },
+                {
+                    "home_team": "Getafe CF",
+                    "away_team": "RCD Espanyol de Barcelona",
+                    "home_team_normalized": "getafe-cf",
+                    "away_team_normalized": "rcd-espanyol-barcelona",
+                    "match_datetime": "2025-12-14T20:00:00"
+                },
+                {
+                    "home_team": "Real Sociedad",
+                    "away_team": "Girona FC",
+                    "home_team_normalized": "real-sociedad",
+                    "away_team_normalized": "girona-fc",
+                    "match_datetime": "2025-12-14T20:00:00"
+                },
+                {
+                    "home_team": "Sevilla FC",
+                    "away_team": "Real Oviedo",
+                    "home_team_normalized": "sevilla-fc",
+                    "away_team_normalized": "real-oviedo",
+                    "match_datetime": "2025-12-14T20:00:00"
+                }
+            ]
+        },
+        {
+            "matchday": "Jornada 17",
+            "date": "2026-12-21",
+            "matches": [
+                {
+                    "home_team": "Athletic Club",
+                    "away_team": "RCD Espanyol de Barcelona",
+                    "home_team_normalized": "athletic-club-bilbao",
+                    "away_team_normalized": "rcd-espanyol-barcelona",
+                    "match_datetime": "2025-12-21T20:00:00"
+                },
+                {
+                    "home_team": "Real Betis",
+                    "away_team": "Getafe CF",
+                    "home_team_normalized": "real-betis-balompie",
+                    "away_team_normalized": "getafe-cf",
+                    "match_datetime": "2025-12-21T20:00:00"
+                },
+                {
+                    "home_team": "Elche CF",
+                    "away_team": "Rayo Vallecano",
+                    "home_team_normalized": "elche-cf",
+                    "away_team_normalized": "rayo-vallecano",
+                    "match_datetime": "2025-12-21T20:00:00"
+                },
+                {
+                    "home_team": "Levante UD",
+                    "away_team": "Real Sociedad",
+                    "home_team_normalized": "levante-ud",
+                    "away_team_normalized": "real-sociedad",
+                    "match_datetime": "2025-12-21T20:00:00"
+                },
+                {
+                    "home_team": "Real Madrid",
+                    "away_team": "Sevilla FC",
+                    "home_team_normalized": "real-madrid",
+                    "away_team_normalized": "sevilla-fc",
+                    "match_datetime": "2025-12-21T20:00:00"
+                },
+                {
+                    "home_team": "CA Osasuna",
+                    "away_team": "Deportivo Alavés",
+                    "home_team_normalized": "osasuna",
+                    "away_team_normalized": "deportivo-alaves",
+                    "match_datetime": "2025-12-21T20:00:00"
+                },
+                {
+                    "home_team": "Girona FC",
+                    "away_team": "Atlético de Madrid",
+                    "home_team_normalized": "girona-fc",
+                    "away_team_normalized": "atletico-madrid",
+                    "match_datetime": "2025-12-21T20:00:00"
+                },
+                {
+                    "home_team": "Villarreal CF",
+                    "away_team": "FC Barcelona",
+                    "home_team_normalized": "villarreal-cf",
+                    "away_team_normalized": "fc-barcelona",
+                    "match_datetime": "2025-12-21T20:00:00"
+                },
+                {
+                    "home_team": "Real Oviedo",
+                    "away_team": "RC Celta",
+                    "home_team_normalized": "real-oviedo",
+                    "away_team_normalized": "celta-vigo",
+                    "match_datetime": "2025-12-21T20:00:00"
+                },
+                {
+                    "home_team": "Valencia CF",
+                    "away_team": "RCD Mallorca",
+                    "home_team_normalized": "valencia-cf",
+                    "away_team_normalized": "rcd-mallorca",
+                    "match_datetime": "2025-12-21T20:00:00"
+                }
+            ]
+        },
+        {
+            "matchday": "Jornada 18",
+            "date": "2027-01-04",
+            "matches": [
+                {
+                    "home_team": "Deportivo Alavés",
+                    "away_team": "Real Oviedo",
+                    "home_team_normalized": "deportivo-alaves",
+                    "away_team_normalized": "real-oviedo",
+                    "match_datetime": "2026-01-04T20:00:00"
+                },
+                {
+                    "home_team": "RC Celta",
+                    "away_team": "Valencia CF",
+                    "home_team_normalized": "celta-vigo",
+                    "away_team_normalized": "valencia-cf",
+                    "match_datetime": "2026-01-04T20:00:00"
+                },
+                {
+                    "home_team": "Elche CF",
+                    "away_team": "Villarreal CF",
+                    "home_team_normalized": "elche-cf",
+                    "away_team_normalized": "villarreal-cf",
+                    "match_datetime": "2026-01-04T20:00:00"
+                },
+                {
+                    "home_team": "CA Osasuna",
+                    "away_team": "Athletic Club",
+                    "home_team_normalized": "osasuna",
+                    "away_team_normalized": "athletic-club-bilbao",
+                    "match_datetime": "2026-01-04T20:00:00"
+                },
+                {
+                    "home_team": "Real Sociedad",
+                    "away_team": "Atlético de Madrid",
+                    "home_team_normalized": "real-sociedad",
+                    "away_team_normalized": "atletico-madrid",
+                    "match_datetime": "2026-01-04T20:00:00"
+                },
+                {
+                    "home_team": "RCD Espanyol de Barcelona",
+                    "away_team": "FC Barcelona",
+                    "home_team_normalized": "rcd-espanyol-barcelona",
+                    "away_team_normalized": "fc-barcelona",
+                    "match_datetime": "2026-01-04T20:00:00"
+                },
+                {
+                    "home_team": "Real Madrid",
+                    "away_team": "Real Betis",
+                    "home_team_normalized": "real-madrid",
+                    "away_team_normalized": "real-betis-balompie",
+                    "match_datetime": "2026-01-04T20:00:00"
+                },
+                {
+                    "home_team": "Rayo Vallecano",
+                    "away_team": "Getafe CF",
+                    "home_team_normalized": "rayo-vallecano",
+                    "away_team_normalized": "getafe-cf",
+                    "match_datetime": "2026-01-04T20:00:00"
+                },
+                {
+                    "home_team": "RCD Mallorca",
+                    "away_team": "Girona FC",
+                    "home_team_normalized": "rcd-mallorca",
+                    "away_team_normalized": "girona-fc",
+                    "match_datetime": "2026-01-04T20:00:00"
+                },
+                {
+                    "home_team": "Sevilla FC",
+                    "away_team": "Levante UD",
+                    "home_team_normalized": "sevilla-fc",
+                    "away_team_normalized": "levante-ud",
+                    "match_datetime": "2026-01-04T20:00:00"
+                }
+            ]
+        },
+        {
+            "matchday": "Jornada 19",
+            "date": "2027-01-11",
+            "matches": [
+                {
+                    "home_team": "Athletic Club",
+                    "away_team": "Real Madrid",
+                    "home_team_normalized": "athletic-club-bilbao",
+                    "away_team_normalized": "real-madrid",
+                    "match_datetime": "2026-01-11T20:00:00"
+                },
+                {
+                    "home_team": "Getafe CF",
+                    "away_team": "Real Sociedad",
+                    "home_team_normalized": "getafe-cf",
+                    "away_team_normalized": "real-sociedad",
+                    "match_datetime": "2026-01-11T20:00:00"
+                },
+                {
+                    "home_team": "Girona FC",
+                    "away_team": "CA Osasuna",
+                    "home_team_normalized": "girona-fc",
+                    "away_team_normalized": "osasuna",
+                    "match_datetime": "2026-01-11T20:00:00"
+                },
+                {
+                    "home_team": "Villarreal CF",
+                    "away_team": "Deportivo Alavés",
+                    "home_team_normalized": "villarreal-cf",
+                    "away_team_normalized": "deportivo-alaves",
+                    "match_datetime": "2026-01-11T20:00:00"
+                },
+                {
+                    "home_team": "FC Barcelona",
+                    "away_team": "Atlético de Madrid",
+                    "home_team_normalized": "fc-barcelona",
+                    "away_team_normalized": "atletico-madrid",
+                    "match_datetime": "2026-01-11T20:00:00"
+                },
+                {
+                    "home_team": "Real Oviedo",
+                    "away_team": "Real Betis",
+                    "home_team_normalized": "real-oviedo",
+                    "away_team_normalized": "real-betis-balompie",
+                    "match_datetime": "2026-01-11T20:00:00"
+                },
+                {
+                    "home_team": "Sevilla FC",
+                    "away_team": "RC Celta",
+                    "home_team_normalized": "sevilla-fc",
+                    "away_team_normalized": "celta-vigo",
+                    "match_datetime": "2026-01-11T20:00:00"
+                },
+                {
+                    "home_team": "Valencia CF",
+                    "away_team": "Elche CF",
+                    "home_team_normalized": "valencia-cf",
+                    "away_team_normalized": "elche-cf",
+                    "match_datetime": "2026-01-11T20:00:00"
+                },
+                {
+                    "home_team": "Levante UD",
+                    "away_team": "RCD Espanyol de Barcelona",
+                    "home_team_normalized": "levante-ud",
+                    "away_team_normalized": "rcd-espanyol-barcelona",
+                    "match_datetime": "2026-01-11T20:00:00"
+                },
+                {
+                    "home_team": "Rayo Vallecano",
+                    "away_team": "RCD Mallorca",
+                    "home_team_normalized": "rayo-vallecano",
+                    "away_team_normalized": "rcd-mallorca",
+                    "match_datetime": "2026-01-11T20:00:00"
+                }
+            ]
+        },
+        {
+            "matchday": "Jornada 20",
+            "date": "2027-01-18",
+            "matches": [
+                {
+                    "home_team": "Real Betis",
+                    "away_team": "Villarreal CF",
+                    "home_team_normalized": "real-betis-balompie",
+                    "away_team_normalized": "villarreal-cf",
+                    "match_datetime": "2026-01-18T20:00:00"
+                },
+                {
+                    "home_team": "RC Celta",
+                    "away_team": "Rayo Vallecano",
+                    "home_team_normalized": "celta-vigo",
+                    "away_team_normalized": "rayo-vallecano",
+                    "match_datetime": "2026-01-18T20:00:00"
+                },
+                {
+                    "home_team": "Elche CF",
+                    "away_team": "Sevilla FC",
+                    "home_team_normalized": "elche-cf",
+                    "away_team_normalized": "sevilla-fc",
+                    "match_datetime": "2026-01-18T20:00:00"
+                },
+                {
+                    "home_team": "RCD Espanyol de Barcelona",
+                    "away_team": "Girona FC",
+                    "home_team_normalized": "rcd-espanyol-barcelona",
+                    "away_team_normalized": "girona-fc",
+                    "match_datetime": "2026-01-18T20:00:00"
+                },
+                {
+                    "home_team": "Getafe CF",
+                    "away_team": "Valencia CF",
+                    "home_team_normalized": "getafe-cf",
+                    "away_team_normalized": "valencia-cf",
+                    "match_datetime": "2026-01-18T20:00:00"
+                },
+                {
+                    "home_team": "CA Osasuna",
+                    "away_team": "Real Oviedo",
+                    "home_team_normalized": "osasuna",
+                    "away_team_normalized": "real-oviedo",
+                    "match_datetime": "2026-01-18T20:00:00"
+                },
+                {
+                    "home_team": "Atlético de Madrid",
+                    "away_team": "Deportivo Alavés",
+                    "home_team_normalized": "atletico-madrid",
+                    "away_team_normalized": "deportivo-alaves",
+                    "match_datetime": "2026-01-18T20:00:00"
+                },
+                {
+                    "home_team": "RCD Mallorca",
+                    "away_team": "Athletic Club",
+                    "home_team_normalized": "rcd-mallorca",
+                    "away_team_normalized": "athletic-club-bilbao",
+                    "match_datetime": "2026-01-18T20:00:00"
+                },
+                {
+                    "home_team": "Real Sociedad",
+                    "away_team": "FC Barcelona",
+                    "home_team_normalized": "real-sociedad",
+                    "away_team_normalized": "fc-barcelona",
+                    "match_datetime": "2026-01-18T20:00:00"
+                },
+                {
+                    "home_team": "Real Madrid",
+                    "away_team": "Levante UD",
+                    "home_team_normalized": "real-madrid",
+                    "away_team_normalized": "levante-ud",
+                    "match_datetime": "2026-01-18T20:00:00"
+                }
+            ]
+        },
+        {
+            "matchday": "Jornada 21",
+            "date": "2027-01-25",
+            "matches": [
+                {
+                    "home_team": "Deportivo Alavés",
+                    "away_team": "Real Betis",
+                    "home_team_normalized": "deportivo-alaves",
+                    "away_team_normalized": "real-betis-balompie",
+                    "match_datetime": "2026-01-25T20:00:00"
+                },
+                {
+                    "home_team": "Atlético de Madrid",
+                    "away_team": "RCD Mallorca",
+                    "home_team_normalized": "atletico-madrid",
+                    "away_team_normalized": "rcd-mallorca",
+                    "match_datetime": "2026-01-25T20:00:00"
+                },
+                {
+                    "home_team": "FC Barcelona",
+                    "away_team": "Real Oviedo",
+                    "home_team_normalized": "fc-barcelona",
+                    "away_team_normalized": "real-oviedo",
+                    "match_datetime": "2026-01-25T20:00:00"
+                },
+                {
+                    "home_team": "Sevilla FC",
+                    "away_team": "Athletic Club",
+                    "home_team_normalized": "sevilla-fc",
+                    "away_team_normalized": "athletic-club-bilbao",
+                    "match_datetime": "2026-01-25T20:00:00"
+                },
+                {
+                    "home_team": "Real Sociedad",
+                    "away_team": "RC Celta",
+                    "home_team_normalized": "real-sociedad",
+                    "away_team_normalized": "celta-vigo",
+                    "match_datetime": "2026-01-25T20:00:00"
+                },
+                {
+                    "home_team": "Levante UD",
+                    "away_team": "Elche CF",
+                    "home_team_normalized": "levante-ud",
+                    "away_team_normalized": "elche-cf",
+                    "match_datetime": "2026-01-25T20:00:00"
+                },
+                {
+                    "home_team": "Valencia CF",
+                    "away_team": "RCD Espanyol de Barcelona",
+                    "home_team_normalized": "valencia-cf",
+                    "away_team_normalized": "rcd-espanyol-barcelona",
+                    "match_datetime": "2026-01-25T20:00:00"
+                },
+                {
+                    "home_team": "Girona FC",
+                    "away_team": "Getafe CF",
+                    "home_team_normalized": "girona-fc",
+                    "away_team_normalized": "getafe-cf",
+                    "match_datetime": "2026-01-25T20:00:00"
+                },
+                {
+                    "home_team": "Rayo Vallecano",
+                    "away_team": "CA Osasuna",
+                    "home_team_normalized": "rayo-vallecano",
+                    "away_team_normalized": "osasuna",
+                    "match_datetime": "2026-01-25T20:00:00"
+                },
+                {
+                    "home_team": "Villarreal CF",
+                    "away_team": "Real Madrid",
+                    "home_team_normalized": "villarreal-cf",
+                    "away_team_normalized": "real-madrid",
+                    "match_datetime": "2026-01-25T20:00:00"
+                }
+            ]
+        },
+        {
+            "matchday": "Jornada 22",
+            "date": "2027-02-01",
+            "matches": [
+                {
+                    "home_team": "Athletic Club",
+                    "away_team": "Real Sociedad",
+                    "home_team_normalized": "athletic-club-bilbao",
+                    "away_team_normalized": "real-sociedad",
+                    "match_datetime": "2026-02-01T20:00:00"
+                },
+                {
+                    "home_team": "Real Betis",
+                    "away_team": "Valencia CF",
+                    "home_team_normalized": "real-betis-balompie",
+                    "away_team_normalized": "valencia-cf",
+                    "match_datetime": "2026-02-01T20:00:00"
+                },
+                {
+                    "home_team": "RCD Mallorca",
+                    "away_team": "Sevilla FC",
+                    "home_team_normalized": "rcd-mallorca",
+                    "away_team_normalized": "sevilla-fc",
+                    "match_datetime": "2026-02-01T20:00:00"
+                },
+                {
+                    "home_team": "CA Osasuna",
+                    "away_team": "Villarreal CF",
+                    "home_team_normalized": "osasuna",
+                    "away_team_normalized": "villarreal-cf",
+                    "match_datetime": "2026-02-01T20:00:00"
+                },
+                {
+                    "home_team": "RCD Espanyol de Barcelona",
+                    "away_team": "Deportivo Alavés",
+                    "home_team_normalized": "rcd-espanyol-barcelona",
+                    "away_team_normalized": "deportivo-alaves",
+                    "match_datetime": "2026-02-01T20:00:00"
+                },
+                {
+                    "home_team": "Levante UD",
+                    "away_team": "Atlético de Madrid",
+                    "home_team_normalized": "levante-ud",
+                    "away_team_normalized": "atletico-madrid",
+                    "match_datetime": "2026-02-01T20:00:00"
+                },
+                {
+                    "home_team": "Elche CF",
+                    "away_team": "FC Barcelona",
+                    "home_team_normalized": "elche-cf",
+                    "away_team_normalized": "fc-barcelona",
+                    "match_datetime": "2026-02-01T20:00:00"
+                },
+                {
+                    "home_team": "Getafe CF",
+                    "away_team": "RC Celta",
+                    "home_team_normalized": "getafe-cf",
+                    "away_team_normalized": "celta-vigo",
+                    "match_datetime": "2026-02-01T20:00:00"
+                },
+                {
+                    "home_team": "Real Oviedo",
+                    "away_team": "Girona FC",
+                    "home_team_normalized": "real-oviedo",
+                    "away_team_normalized": "girona-fc",
+                    "match_datetime": "2026-02-01T20:00:00"
+                },
+                {
+                    "home_team": "Real Madrid",
+                    "away_team": "Rayo Vallecano",
+                    "home_team_normalized": "real-madrid",
+                    "away_team_normalized": "rayo-vallecano",
+                    "match_datetime": "2026-02-01T20:00:00"
+                }
+            ]
+        },
+        {
+            "matchday": "Jornada 23",
+            "date": "2027-02-08",
+            "matches": [
+                {
+                    "home_team": "Deportivo Alavés",
+                    "away_team": "Getafe CF",
+                    "home_team_normalized": "deportivo-alaves",
+                    "away_team_normalized": "getafe-cf",
+                    "match_datetime": "2026-02-08T20:00:00"
+                },
+                {
+                    "home_team": "Athletic Club",
+                    "away_team": "Levante UD",
+                    "home_team_normalized": "athletic-club-bilbao",
+                    "away_team_normalized": "levante-ud",
+                    "match_datetime": "2026-02-08T20:00:00"
+                },
+                {
+                    "home_team": "Atlético de Madrid",
+                    "away_team": "Real Betis",
+                    "home_team_normalized": "atletico-madrid",
+                    "away_team_normalized": "real-betis-balompie",
+                    "match_datetime": "2026-02-08T20:00:00"
+                },
+                {
+                    "home_team": "FC Barcelona",
+                    "away_team": "RCD Mallorca",
+                    "home_team_normalized": "fc-barcelona",
+                    "away_team_normalized": "rcd-mallorca",
+                    "match_datetime": "2026-02-08T20:00:00"
+                },
+                {
+                    "home_team": "RC Celta",
+                    "away_team": "CA Osasuna",
+                    "home_team_normalized": "celta-vigo",
+                    "away_team_normalized": "osasuna",
+                    "match_datetime": "2026-02-08T20:00:00"
+                },
+                {
+                    "home_team": "Real Sociedad",
+                    "away_team": "Elche CF",
+                    "home_team_normalized": "real-sociedad",
+                    "away_team_normalized": "elche-cf",
+                    "match_datetime": "2026-02-08T20:00:00"
+                },
+                {
+                    "home_team": "Villarreal CF",
+                    "away_team": "RCD Espanyol de Barcelona",
+                    "home_team_normalized": "villarreal-cf",
+                    "away_team_normalized": "rcd-espanyol-barcelona",
+                    "match_datetime": "2026-02-08T20:00:00"
+                },
+                {
+                    "home_team": "Sevilla FC",
+                    "away_team": "Girona FC",
+                    "home_team_normalized": "sevilla-fc",
+                    "away_team_normalized": "girona-fc",
+                    "match_datetime": "2026-02-08T20:00:00"
+                },
+                {
+                    "home_team": "Valencia CF",
+                    "away_team": "Real Madrid",
+                    "home_team_normalized": "valencia-cf",
+                    "away_team_normalized": "real-madrid",
+                    "match_datetime": "2026-02-08T20:00:00"
+                },
+                {
+                    "home_team": "Rayo Vallecano",
+                    "away_team": "Real Oviedo",
+                    "home_team_normalized": "rayo-vallecano",
+                    "away_team_normalized": "real-oviedo",
+                    "match_datetime": "2026-02-08T20:00:00"
+                }
+            ]
+        },
+        {
+            "matchday": "Jornada 24",
+            "date": "2027-02-15",
+            "matches": [
+                {
+                    "home_team": "Elche CF",
+                    "away_team": "CA Osasuna",
+                    "home_team_normalized": "elche-cf",
+                    "away_team_normalized": "osasuna",
+                    "match_datetime": "2026-02-15T20:00:00"
+                },
+                {
+                    "home_team": "Getafe CF",
+                    "away_team": "Villarreal CF",
+                    "home_team_normalized": "getafe-cf",
+                    "away_team_normalized": "villarreal-cf",
+                    "match_datetime": "2026-02-15T20:00:00"
+                },
+                {
+                    "home_team": "Levante UD",
+                    "away_team": "Valencia CF",
+                    "home_team_normalized": "levante-ud",
+                    "away_team_normalized": "valencia-cf",
+                    "match_datetime": "2026-02-15T20:00:00"
+                },
+                {
+                    "home_team": "Real Madrid",
+                    "away_team": "Real Sociedad",
+                    "home_team_normalized": "real-madrid",
+                    "away_team_normalized": "real-sociedad",
+                    "match_datetime": "2026-02-15T20:00:00"
+                },
+                {
+                    "home_team": "Sevilla FC",
+                    "away_team": "Deportivo Alavés",
+                    "home_team_normalized": "sevilla-fc",
+                    "away_team_normalized": "deportivo-alaves",
+                    "match_datetime": "2026-02-15T20:00:00"
+                },
+                {
+                    "home_team": "Real Oviedo",
+                    "away_team": "Athletic Club",
+                    "home_team_normalized": "real-oviedo",
+                    "away_team_normalized": "athletic-club-bilbao",
+                    "match_datetime": "2026-02-15T20:00:00"
+                },
+                {
+                    "home_team": "Rayo Vallecano",
+                    "away_team": "Atlético de Madrid",
+                    "home_team_normalized": "rayo-vallecano",
+                    "away_team_normalized": "atletico-madrid",
+                    "match_datetime": "2026-02-15T20:00:00"
+                },
+                {
+                    "home_team": "Girona FC",
+                    "away_team": "FC Barcelona",
+                    "home_team_normalized": "girona-fc",
+                    "away_team_normalized": "fc-barcelona",
+                    "match_datetime": "2026-02-15T20:00:00"
+                },
+                {
+                    "home_team": "RCD Mallorca",
+                    "away_team": "Real Betis",
+                    "home_team_normalized": "rcd-mallorca",
+                    "away_team_normalized": "real-betis-balompie",
+                    "match_datetime": "2026-02-15T20:00:00"
+                },
+                {
+                    "home_team": "RCD Espanyol de Barcelona",
+                    "away_team": "RC Celta",
+                    "home_team_normalized": "rcd-espanyol-barcelona",
+                    "away_team_normalized": "celta-vigo",
+                    "match_datetime": "2026-02-15T20:00:00"
+                }
+            ]
+        },
+        {
+            "matchday": "Jornada 25",
+            "date": "2027-02-22",
+            "matches": [
+                {
+                    "home_team": "Deportivo Alavés",
+                    "away_team": "Girona FC",
+                    "home_team_normalized": "deportivo-alaves",
+                    "away_team_normalized": "girona-fc",
+                    "match_datetime": "2026-02-22T20:00:00"
+                },
+                {
+                    "home_team": "Athletic Club",
+                    "away_team": "Elche CF",
+                    "home_team_normalized": "athletic-club-bilbao",
+                    "away_team_normalized": "elche-cf",
+                    "match_datetime": "2026-02-22T20:00:00"
+                },
+                {
+                    "home_team": "Atlético de Madrid",
+                    "away_team": "RCD Espanyol de Barcelona",
+                    "home_team_normalized": "atletico-madrid",
+                    "away_team_normalized": "rcd-espanyol-barcelona",
+                    "match_datetime": "2026-02-22T20:00:00"
+                },
+                {
+                    "home_team": "FC Barcelona",
+                    "away_team": "Levante UD",
+                    "home_team_normalized": "fc-barcelona",
+                    "away_team_normalized": "levante-ud",
+                    "match_datetime": "2026-02-22T20:00:00"
+                },
+                {
+                    "home_team": "Real Betis",
+                    "away_team": "Rayo Vallecano",
+                    "home_team_normalized": "real-betis-balompie",
+                    "away_team_normalized": "rayo-vallecano",
+                    "match_datetime": "2026-02-22T20:00:00"
+                },
+                {
+                    "home_team": "RC Celta",
+                    "away_team": "RCD Mallorca",
+                    "home_team_normalized": "celta-vigo",
+                    "away_team_normalized": "rcd-mallorca",
+                    "match_datetime": "2026-02-22T20:00:00"
+                },
+                {
+                    "home_team": "Getafe CF",
+                    "away_team": "Sevilla FC",
+                    "home_team_normalized": "getafe-cf",
+                    "away_team_normalized": "sevilla-fc",
+                    "match_datetime": "2026-02-22T20:00:00"
+                },
+                {
+                    "home_team": "CA Osasuna",
+                    "away_team": "Real Madrid",
+                    "home_team_normalized": "osasuna",
+                    "away_team_normalized": "real-madrid",
+                    "match_datetime": "2026-02-22T20:00:00"
+                },
+                {
+                    "home_team": "Villarreal CF",
+                    "away_team": "Valencia CF",
+                    "home_team_normalized": "villarreal-cf",
+                    "away_team_normalized": "valencia-cf",
+                    "match_datetime": "2026-02-22T20:00:00"
+                },
+                {
+                    "home_team": "Real Sociedad",
+                    "away_team": "Real Oviedo",
+                    "home_team_normalized": "real-sociedad",
+                    "away_team_normalized": "real-oviedo",
+                    "match_datetime": "2026-02-22T20:00:00"
+                }
+            ]
+        },
+        {
+            "matchday": "Jornada 26",
+            "date": "2027-03-01",
+            "matches": [
+                {
+                    "home_team": "FC Barcelona",
+                    "away_team": "Villarreal CF",
+                    "home_team_normalized": "fc-barcelona",
+                    "away_team_normalized": "villarreal-cf",
+                    "match_datetime": "2026-03-01T20:00:00"
+                },
+                {
+                    "home_team": "Real Betis",
+                    "away_team": "Sevilla FC",
+                    "home_team_normalized": "real-betis-balompie",
+                    "away_team_normalized": "sevilla-fc",
+                    "match_datetime": "2026-03-01T20:00:00"
+                },
+                {
+                    "home_team": "Elche CF",
+                    "away_team": "RCD Espanyol de Barcelona",
+                    "home_team_normalized": "elche-cf",
+                    "away_team_normalized": "rcd-espanyol-barcelona",
+                    "match_datetime": "2026-03-01T20:00:00"
+                },
+                {
+                    "home_team": "RCD Mallorca",
+                    "away_team": "Real Sociedad",
+                    "home_team_normalized": "rcd-mallorca",
+                    "away_team_normalized": "real-sociedad",
+                    "match_datetime": "2026-03-01T20:00:00"
+                },
+                {
+                    "home_team": "Levante UD",
+                    "away_team": "Deportivo Alavés",
+                    "home_team_normalized": "levante-ud",
+                    "away_team_normalized": "deportivo-alaves",
+                    "match_datetime": "2026-03-01T20:00:00"
+                },
+                {
+                    "home_team": "Rayo Vallecano",
+                    "away_team": "Athletic Club",
+                    "home_team_normalized": "rayo-vallecano",
+                    "away_team_normalized": "athletic-club-bilbao",
+                    "match_datetime": "2026-03-01T20:00:00"
+                },
+                {
+                    "home_team": "Real Oviedo",
+                    "away_team": "Atlético de Madrid",
+                    "home_team_normalized": "real-oviedo",
+                    "away_team_normalized": "atletico-madrid",
+                    "match_datetime": "2026-03-01T20:00:00"
+                },
+                {
+                    "home_team": "Girona FC",
+                    "away_team": "RC Celta",
+                    "home_team_normalized": "girona-fc",
+                    "away_team_normalized": "celta-vigo",
+                    "match_datetime": "2026-03-01T20:00:00"
+                },
+                {
+                    "home_team": "Real Madrid",
+                    "away_team": "Getafe CF",
+                    "home_team_normalized": "real-madrid",
+                    "away_team_normalized": "getafe-cf",
+                    "match_datetime": "2026-03-01T20:00:00"
+                },
+                {
+                    "home_team": "Valencia CF",
+                    "away_team": "CA Osasuna",
+                    "home_team_normalized": "valencia-cf",
+                    "away_team_normalized": "osasuna",
+                    "match_datetime": "2026-03-01T20:00:00"
+                }
+            ]
+        },
+        {
+            "matchday": "Jornada 27",
+            "date": "2027-03-08",
+            "matches": [
+                {
+                    "home_team": "Athletic Club",
+                    "away_team": "FC Barcelona",
+                    "home_team_normalized": "athletic-club-bilbao",
+                    "away_team_normalized": "fc-barcelona",
+                    "match_datetime": "2026-03-08T20:00:00"
+                },
+                {
+                    "home_team": "Atlético de Madrid",
+                    "away_team": "Real Sociedad",
+                    "home_team_normalized": "atletico-madrid",
+                    "away_team_normalized": "real-sociedad",
+                    "match_datetime": "2026-03-08T20:00:00"
+                },
+                {
+                    "home_team": "RC Celta",
+                    "away_team": "Real Madrid",
+                    "home_team_normalized": "celta-vigo",
+                    "away_team_normalized": "real-madrid",
+                    "match_datetime": "2026-03-08T20:00:00"
+                },
+                {
+                    "home_team": "RCD Espanyol de Barcelona",
+                    "away_team": "Real Oviedo",
+                    "home_team_normalized": "rcd-espanyol-barcelona",
+                    "away_team_normalized": "real-oviedo",
+                    "match_datetime": "2026-03-08T20:00:00"
+                },
+                {
+                    "home_team": "Valencia CF",
+                    "away_team": "Deportivo Alavés",
+                    "home_team_normalized": "valencia-cf",
+                    "away_team_normalized": "deportivo-alaves",
+                    "match_datetime": "2026-03-08T20:00:00"
+                },
+                {
+                    "home_team": "Getafe CF",
+                    "away_team": "Real Betis",
+                    "home_team_normalized": "getafe-cf",
+                    "away_team_normalized": "real-betis-balompie",
+                    "match_datetime": "2026-03-08T20:00:00"
+                },
+                {
+                    "home_team": "Villarreal CF",
+                    "away_team": "Elche CF",
+                    "home_team_normalized": "villarreal-cf",
+                    "away_team_normalized": "elche-cf",
+                    "match_datetime": "2026-03-08T20:00:00"
+                },
+                {
+                    "home_team": "Levante UD",
+                    "away_team": "Girona FC",
+                    "home_team_normalized": "levante-ud",
+                    "away_team_normalized": "girona-fc",
+                    "match_datetime": "2026-03-08T20:00:00"
+                },
+                {
+                    "home_team": "CA Osasuna",
+                    "away_team": "RCD Mallorca",
+                    "home_team_normalized": "osasuna",
+                    "away_team_normalized": "rcd-mallorca",
+                    "match_datetime": "2026-03-08T20:00:00"
+                },
+                {
+                    "home_team": "Sevilla FC",
+                    "away_team": "Rayo Vallecano",
+                    "home_team_normalized": "sevilla-fc",
+                    "away_team_normalized": "rayo-vallecano",
+                    "match_datetime": "2026-03-08T20:00:00"
+                }
+            ]
+        },
+        {
+            "matchday": "Jornada 28",
+            "date": "2027-03-15",
+            "matches": [
+                {
+                    "home_team": "Deportivo Alavés",
+                    "away_team": "Villarreal CF",
+                    "home_team_normalized": "deportivo-alaves",
+                    "away_team_normalized": "villarreal-cf",
+                    "match_datetime": "2026-03-15T20:00:00"
+                },
+                {
+                    "home_team": "Atlético de Madrid",
+                    "away_team": "Getafe CF",
+                    "home_team_normalized": "atletico-madrid",
+                    "away_team_normalized": "getafe-cf",
+                    "match_datetime": "2026-03-15T20:00:00"
+                },
+                {
+                    "home_team": "FC Barcelona",
+                    "away_team": "Sevilla FC",
+                    "home_team_normalized": "fc-barcelona",
+                    "away_team_normalized": "sevilla-fc",
+                    "match_datetime": "2026-03-15T20:00:00"
+                },
+                {
+                    "home_team": "Real Betis",
+                    "away_team": "RC Celta",
+                    "home_team_normalized": "real-betis-balompie",
+                    "away_team_normalized": "celta-vigo",
+                    "match_datetime": "2026-03-15T20:00:00"
+                },
+                {
+                    "home_team": "Real Oviedo",
+                    "away_team": "Valencia CF",
+                    "home_team_normalized": "real-oviedo",
+                    "away_team_normalized": "valencia-cf",
+                    "match_datetime": "2026-03-15T20:00:00"
+                },
+                {
+                    "home_team": "Girona FC",
+                    "away_team": "Athletic Club",
+                    "home_team_normalized": "girona-fc",
+                    "away_team_normalized": "athletic-club-bilbao",
+                    "match_datetime": "2026-03-15T20:00:00"
+                },
+                {
+                    "home_team": "Real Madrid",
+                    "away_team": "Elche CF",
+                    "home_team_normalized": "real-madrid",
+                    "away_team_normalized": "elche-cf",
+                    "match_datetime": "2026-03-15T20:00:00"
+                },
+                {
+                    "home_team": "RCD Mallorca",
+                    "away_team": "RCD Espanyol de Barcelona",
+                    "home_team_normalized": "rcd-mallorca",
+                    "away_team_normalized": "rcd-espanyol-barcelona",
+                    "match_datetime": "2026-03-15T20:00:00"
+                },
+                {
+                    "home_team": "Rayo Vallecano",
+                    "away_team": "Levante UD",
+                    "home_team_normalized": "rayo-vallecano",
+                    "away_team_normalized": "levante-ud",
+                    "match_datetime": "2026-03-15T20:00:00"
+                },
+                {
+                    "home_team": "Real Sociedad",
+                    "away_team": "CA Osasuna",
+                    "home_team_normalized": "real-sociedad",
+                    "away_team_normalized": "osasuna",
+                    "match_datetime": "2026-03-15T20:00:00"
+                }
+            ]
+        },
+        {
+            "matchday": "Jornada 29",
+            "date": "2027-03-22",
+            "matches": [
+                {
+                    "home_team": "Athletic Club",
+                    "away_team": "Real Betis",
+                    "home_team_normalized": "athletic-club-bilbao",
+                    "away_team_normalized": "real-betis-balompie",
+                    "match_datetime": "2026-03-22T20:00:00"
+                },
+                {
+                    "home_team": "FC Barcelona",
+                    "away_team": "Rayo Vallecano",
+                    "home_team_normalized": "fc-barcelona",
+                    "away_team_normalized": "rayo-vallecano",
+                    "match_datetime": "2026-03-22T20:00:00"
+                },
+                {
+                    "home_team": "Elche CF",
+                    "away_team": "RCD Mallorca",
+                    "home_team_normalized": "elche-cf",
+                    "away_team_normalized": "rcd-mallorca",
+                    "match_datetime": "2026-03-22T20:00:00"
+                },
+                {
+                    "home_team": "RCD Espanyol de Barcelona",
+                    "away_team": "Getafe CF",
+                    "home_team_normalized": "rcd-espanyol-barcelona",
+                    "away_team_normalized": "getafe-cf",
+                    "match_datetime": "2026-03-22T20:00:00"
+                },
+                {
+                    "home_team": "Levante UD",
+                    "away_team": "Real Oviedo",
+                    "home_team_normalized": "levante-ud",
+                    "away_team_normalized": "real-oviedo",
+                    "match_datetime": "2026-03-22T20:00:00"
+                },
+                {
+                    "home_team": "Sevilla FC",
+                    "away_team": "Valencia CF",
+                    "home_team_normalized": "sevilla-fc",
+                    "away_team_normalized": "valencia-cf",
+                    "match_datetime": "2026-03-22T20:00:00"
+                },
+                {
+                    "home_team": "RC Celta",
+                    "away_team": "Deportivo Alavés",
+                    "home_team_normalized": "celta-vigo",
+                    "away_team_normalized": "deportivo-alaves",
+                    "match_datetime": "2026-03-22T20:00:00"
+                },
+                {
+                    "home_team": "Real Madrid",
+                    "away_team": "Atlético de Madrid",
+                    "home_team_normalized": "real-madrid",
+                    "away_team_normalized": "atletico-madrid",
+                    "match_datetime": "2026-03-22T20:00:00"
+                },
+                {
+                    "home_team": "CA Osasuna",
+                    "away_team": "Girona FC",
+                    "home_team_normalized": "osasuna",
+                    "away_team_normalized": "girona-fc",
+                    "match_datetime": "2026-03-22T20:00:00"
+                },
+                {
+                    "home_team": "Villarreal CF",
+                    "away_team": "Real Sociedad",
+                    "home_team_normalized": "villarreal-cf",
+                    "away_team_normalized": "real-sociedad",
+                    "match_datetime": "2026-03-22T20:00:00"
+                }
+            ]
+        },
+        {
+            "matchday": "Jornada 30",
+            "date": "2027-04-05",
+            "matches": [
+                {
+                    "home_team": "Deportivo Alavés",
+                    "away_team": "CA Osasuna",
+                    "home_team_normalized": "deportivo-alaves",
+                    "away_team_normalized": "osasuna",
+                    "match_datetime": "2026-04-05T20:00:00"
+                },
+                {
+                    "home_team": "Atlético de Madrid",
+                    "away_team": "FC Barcelona",
+                    "home_team_normalized": "atletico-madrid",
+                    "away_team_normalized": "fc-barcelona",
+                    "match_datetime": "2026-04-05T20:00:00"
+                },
+                {
+                    "home_team": "Real Betis",
+                    "away_team": "RCD Espanyol de Barcelona",
+                    "home_team_normalized": "real-betis-balompie",
+                    "away_team_normalized": "rcd-espanyol-barcelona",
+                    "match_datetime": "2026-04-05T20:00:00"
+                },
+                {
+                    "home_team": "Girona FC",
+                    "away_team": "Villarreal CF",
+                    "home_team_normalized": "girona-fc",
+                    "away_team_normalized": "villarreal-cf",
+                    "match_datetime": "2026-04-05T20:00:00"
+                },
+                {
+                    "home_team": "RCD Mallorca",
+                    "away_team": "Real Madrid",
+                    "home_team_normalized": "rcd-mallorca",
+                    "away_team_normalized": "real-madrid",
+                    "match_datetime": "2026-04-05T20:00:00"
+                },
+                {
+                    "home_team": "Real Oviedo",
+                    "away_team": "Sevilla FC",
+                    "home_team_normalized": "real-oviedo",
+                    "away_team_normalized": "sevilla-fc",
+                    "match_datetime": "2026-04-05T20:00:00"
+                },
+                {
+                    "home_team": "Getafe CF",
+                    "away_team": "Athletic Club",
+                    "home_team_normalized": "getafe-cf",
+                    "away_team_normalized": "athletic-club-bilbao",
+                    "match_datetime": "2026-04-05T20:00:00"
+                },
+                {
+                    "home_team": "Valencia CF",
+                    "away_team": "RC Celta",
+                    "home_team_normalized": "valencia-cf",
+                    "away_team_normalized": "celta-vigo",
+                    "match_datetime": "2026-04-05T20:00:00"
+                },
+                {
+                    "home_team": "Rayo Vallecano",
+                    "away_team": "Elche CF",
+                    "home_team_normalized": "rayo-vallecano",
+                    "away_team_normalized": "elche-cf",
+                    "match_datetime": "2026-04-05T20:00:00"
+                },
+                {
+                    "home_team": "Real Sociedad",
+                    "away_team": "Levante UD",
+                    "home_team_normalized": "real-sociedad",
+                    "away_team_normalized": "levante-ud",
+                    "match_datetime": "2026-04-05T20:00:00"
+                }
+            ]
+        },
+        {
+            "matchday": "Jornada 31",
+            "date": "2027-04-12",
+            "matches": [
+                {
+                    "home_team": "Athletic Club",
+                    "away_team": "Villarreal CF",
+                    "home_team_normalized": "athletic-club-bilbao",
+                    "away_team_normalized": "villarreal-cf",
+                    "match_datetime": "2026-04-12T20:00:00"
+                },
+                {
+                    "home_team": "FC Barcelona",
+                    "away_team": "RCD Espanyol de Barcelona",
+                    "home_team_normalized": "fc-barcelona",
+                    "away_team_normalized": "rcd-espanyol-barcelona",
+                    "match_datetime": "2026-04-12T20:00:00"
+                },
+                {
+                    "home_team": "RC Celta",
+                    "away_team": "Real Oviedo",
+                    "home_team_normalized": "celta-vigo",
+                    "away_team_normalized": "real-oviedo",
+                    "match_datetime": "2026-04-12T20:00:00"
+                },
+                {
+                    "home_team": "Elche CF",
+                    "away_team": "Valencia CF",
+                    "home_team_normalized": "elche-cf",
+                    "away_team_normalized": "valencia-cf",
+                    "match_datetime": "2026-04-12T20:00:00"
+                },
+                {
+                    "home_team": "RCD Mallorca",
+                    "away_team": "Rayo Vallecano",
+                    "home_team_normalized": "rcd-mallorca",
+                    "away_team_normalized": "rayo-vallecano",
+                    "match_datetime": "2026-04-12T20:00:00"
+                },
+                {
+                    "home_team": "Real Sociedad",
+                    "away_team": "Deportivo Alavés",
+                    "home_team_normalized": "real-sociedad",
+                    "away_team_normalized": "deportivo-alaves",
+                    "match_datetime": "2026-04-12T20:00:00"
+                },
+                {
+                    "home_team": "Sevilla FC",
+                    "away_team": "Atlético de Madrid",
+                    "home_team_normalized": "sevilla-fc",
+                    "away_team_normalized": "atletico-madrid",
+                    "match_datetime": "2026-04-12T20:00:00"
+                },
+                {
+                    "home_team": "CA Osasuna",
+                    "away_team": "Real Betis",
+                    "home_team_normalized": "osasuna",
+                    "away_team_normalized": "real-betis-balompie",
+                    "match_datetime": "2026-04-12T20:00:00"
+                },
+                {
+                    "home_team": "Levante UD",
+                    "away_team": "Getafe CF",
+                    "home_team_normalized": "levante-ud",
+                    "away_team_normalized": "getafe-cf",
+                    "match_datetime": "2026-04-12T20:00:00"
+                },
+                {
+                    "home_team": "Real Madrid",
+                    "away_team": "Girona FC",
+                    "home_team_normalized": "real-madrid",
+                    "away_team_normalized": "girona-fc",
+                    "match_datetime": "2026-04-12T20:00:00"
+                }
+            ]
+        },
+        {
+            "matchday": "Jornada 32",
+            "date": "2027-04-26",
+            "matches": [
+                {
+                    "home_team": "Deportivo Alavés",
+                    "away_team": "RCD Mallorca",
+                    "home_team_normalized": "deportivo-alaves",
+                    "away_team_normalized": "rcd-mallorca",
+                    "match_datetime": "2026-04-26T20:00:00"
+                },
+                {
+                    "home_team": "Real Betis",
+                    "away_team": "Real Madrid",
+                    "home_team_normalized": "real-betis-balompie",
+                    "away_team_normalized": "real-madrid",
+                    "match_datetime": "2026-04-26T20:00:00"
+                },
+                {
+                    "home_team": "RCD Espanyol de Barcelona",
+                    "away_team": "Levante UD",
+                    "home_team_normalized": "rcd-espanyol-barcelona",
+                    "away_team_normalized": "levante-ud",
+                    "match_datetime": "2026-04-26T20:00:00"
+                },
+                {
+                    "home_team": "CA Osasuna",
+                    "away_team": "Sevilla FC",
+                    "home_team_normalized": "osasuna",
+                    "away_team_normalized": "sevilla-fc",
+                    "match_datetime": "2026-04-26T20:00:00"
+                },
+                {
+                    "home_team": "Rayo Vallecano",
+                    "away_team": "Real Sociedad",
+                    "home_team_normalized": "rayo-vallecano",
+                    "away_team_normalized": "real-sociedad",
+                    "match_datetime": "2026-04-26T20:00:00"
+                },
+                {
+                    "home_team": "Atlético de Madrid",
+                    "away_team": "Athletic Club",
+                    "home_team_normalized": "atletico-madrid",
+                    "away_team_normalized": "athletic-club-bilbao",
+                    "match_datetime": "2026-04-26T20:00:00"
+                },
+                {
+                    "home_team": "Getafe CF",
+                    "away_team": "FC Barcelona",
+                    "home_team_normalized": "getafe-cf",
+                    "away_team_normalized": "fc-barcelona",
+                    "match_datetime": "2026-04-26T20:00:00"
+                },
+                {
+                    "home_team": "Villarreal CF",
+                    "away_team": "RC Celta",
+                    "home_team_normalized": "villarreal-cf",
+                    "away_team_normalized": "celta-vigo",
+                    "match_datetime": "2026-04-26T20:00:00"
+                },
+                {
+                    "home_team": "Real Oviedo",
+                    "away_team": "Elche CF",
+                    "home_team_normalized": "real-oviedo",
+                    "away_team_normalized": "elche-cf",
+                    "match_datetime": "2026-04-26T20:00:00"
+                },
+                {
+                    "home_team": "Valencia CF",
+                    "away_team": "Girona FC",
+                    "home_team_normalized": "valencia-cf",
+                    "away_team_normalized": "girona-fc",
+                    "match_datetime": "2026-04-26T20:00:00"
+                }
+            ]
+        },
+        {
+            "matchday": "Jornada 33",
+            "date": "2027-04-22",
+            "matches": [
+                {
+                    "home_team": "Athletic Club",
+                    "away_team": "CA Osasuna",
+                    "home_team_normalized": "athletic-club-bilbao",
+                    "away_team_normalized": "osasuna",
+                    "match_datetime": "2026-04-22T20:00:00"
+                },
+                {
+                    "home_team": "FC Barcelona",
+                    "away_team": "RC Celta",
+                    "home_team_normalized": "fc-barcelona",
+                    "away_team_normalized": "celta-vigo",
+                    "match_datetime": "2026-04-22T20:00:00"
+                },
+                {
+                    "home_team": "Levante UD",
+                    "away_team": "Sevilla FC",
+                    "home_team_normalized": "levante-ud",
+                    "away_team_normalized": "sevilla-fc",
+                    "match_datetime": "2026-04-22T20:00:00"
+                },
+                {
+                    "home_team": "RCD Mallorca",
+                    "away_team": "Valencia CF",
+                    "home_team_normalized": "rcd-mallorca",
+                    "away_team_normalized": "valencia-cf",
+                    "match_datetime": "2026-04-22T20:00:00"
+                },
+                {
+                    "home_team": "Real Oviedo",
+                    "away_team": "Villarreal CF",
+                    "home_team_normalized": "real-oviedo",
+                    "away_team_normalized": "villarreal-cf",
+                    "match_datetime": "2026-04-22T20:00:00"
+                },
+                {
+                    "home_team": "Real Madrid",
+                    "away_team": "Deportivo Alavés",
+                    "home_team_normalized": "real-madrid",
+                    "away_team_normalized": "deportivo-alaves",
+                    "match_datetime": "2026-04-22T20:00:00"
+                },
+                {
+                    "home_team": "Elche CF",
+                    "away_team": "Atlético de Madrid",
+                    "home_team_normalized": "elche-cf",
+                    "away_team_normalized": "atletico-madrid",
+                    "match_datetime": "2026-04-22T20:00:00"
+                },
+                {
+                    "home_team": "Girona FC",
+                    "away_team": "Real Betis",
+                    "home_team_normalized": "girona-fc",
+                    "away_team_normalized": "real-betis-balompie",
+                    "match_datetime": "2026-04-22T20:00:00"
+                },
+                {
+                    "home_team": "Rayo Vallecano",
+                    "away_team": "RCD Espanyol de Barcelona",
+                    "home_team_normalized": "rayo-vallecano",
+                    "away_team_normalized": "rcd-espanyol-barcelona",
+                    "match_datetime": "2026-04-22T20:00:00"
+                },
+                {
+                    "home_team": "Real Sociedad",
+                    "away_team": "Getafe CF",
+                    "home_team_normalized": "real-sociedad",
+                    "away_team_normalized": "getafe-cf",
+                    "match_datetime": "2026-04-22T20:00:00"
+                }
+            ]
+        },
+        {
+            "matchday": "Jornada 34",
+            "date": "2027-05-03",
+            "matches": [
+                {
+                    "home_team": "Deportivo Alavés",
+                    "away_team": "Athletic Club",
+                    "home_team_normalized": "deportivo-alaves",
+                    "away_team_normalized": "athletic-club-bilbao",
+                    "match_datetime": "2026-05-03T20:00:00"
+                },
+                {
+                    "home_team": "Real Betis",
+                    "away_team": "Real Oviedo",
+                    "home_team_normalized": "real-betis-balompie",
+                    "away_team_normalized": "real-oviedo",
+                    "match_datetime": "2026-05-03T20:00:00"
+                },
+                {
+                    "home_team": "RC Celta",
+                    "away_team": "Elche CF",
+                    "home_team_normalized": "celta-vigo",
+                    "away_team_normalized": "elche-cf",
+                    "match_datetime": "2026-05-03T20:00:00"
+                },
+                {
+                    "home_team": "RCD Espanyol de Barcelona",
+                    "away_team": "Real Madrid",
+                    "home_team_normalized": "rcd-espanyol-barcelona",
+                    "away_team_normalized": "real-madrid",
+                    "match_datetime": "2026-05-03T20:00:00"
+                },
+                {
+                    "home_team": "Getafe CF",
+                    "away_team": "Rayo Vallecano",
+                    "home_team_normalized": "getafe-cf",
+                    "away_team_normalized": "rayo-vallecano",
+                    "match_datetime": "2026-05-03T20:00:00"
+                },
+                {
+                    "home_team": "Girona FC",
+                    "away_team": "RCD Mallorca",
+                    "home_team_normalized": "girona-fc",
+                    "away_team_normalized": "rcd-mallorca",
+                    "match_datetime": "2026-05-03T20:00:00"
+                },
+                {
+                    "home_team": "Valencia CF",
+                    "away_team": "Atlético de Madrid",
+                    "home_team_normalized": "valencia-cf",
+                    "away_team_normalized": "atletico-madrid",
+                    "match_datetime": "2026-05-03T20:00:00"
+                },
+                {
+                    "home_team": "CA Osasuna",
+                    "away_team": "FC Barcelona",
+                    "home_team_normalized": "osasuna",
+                    "away_team_normalized": "fc-barcelona",
+                    "match_datetime": "2026-05-03T20:00:00"
+                },
+                {
+                    "home_team": "Villarreal CF",
+                    "away_team": "Levante UD",
+                    "home_team_normalized": "villarreal-cf",
+                    "away_team_normalized": "levante-ud",
+                    "match_datetime": "2026-05-03T20:00:00"
+                },
+                {
+                    "home_team": "Sevilla FC",
+                    "away_team": "Real Sociedad",
+                    "home_team_normalized": "sevilla-fc",
+                    "away_team_normalized": "real-sociedad",
+                    "match_datetime": "2026-05-03T20:00:00"
+                }
+            ]
+        },
+        {
+            "matchday": "Jornada 35",
+            "date": "2027-05-10",
+            "matches": [
+                {
+                    "home_team": "Athletic Club",
+                    "away_team": "Valencia CF",
+                    "home_team_normalized": "athletic-club-bilbao",
+                    "away_team_normalized": "valencia-cf",
+                    "match_datetime": "2026-05-10T20:00:00"
+                },
+                {
+                    "home_team": "Atlético de Madrid",
+                    "away_team": "RC Celta",
+                    "home_team_normalized": "atletico-madrid",
+                    "away_team_normalized": "celta-vigo",
+                    "match_datetime": "2026-05-10T20:00:00"
+                },
+                {
+                    "home_team": "FC Barcelona",
+                    "away_team": "Real Madrid",
+                    "home_team_normalized": "fc-barcelona",
+                    "away_team_normalized": "real-madrid",
+                    "match_datetime": "2026-05-10T20:00:00"
+                },
+                {
+                    "home_team": "Levante UD",
+                    "away_team": "CA Osasuna",
+                    "home_team_normalized": "levante-ud",
+                    "away_team_normalized": "osasuna",
+                    "match_datetime": "2026-05-10T20:00:00"
+                },
+                {
+                    "home_team": "RCD Mallorca",
+                    "away_team": "Villarreal CF",
+                    "home_team_normalized": "rcd-mallorca",
+                    "away_team_normalized": "villarreal-cf",
+                    "match_datetime": "2026-05-10T20:00:00"
+                },
+                {
+                    "home_team": "Elche CF",
+                    "away_team": "Deportivo Alavés",
+                    "home_team_normalized": "elche-cf",
+                    "away_team_normalized": "deportivo-alaves",
+                    "match_datetime": "2026-05-10T20:00:00"
+                },
+                {
+                    "home_team": "Real Sociedad",
+                    "away_team": "Real Betis",
+                    "home_team_normalized": "real-sociedad",
+                    "away_team_normalized": "real-betis-balompie",
+                    "match_datetime": "2026-05-10T20:00:00"
+                },
+                {
+                    "home_team": "Sevilla FC",
+                    "away_team": "RCD Espanyol de Barcelona",
+                    "home_team_normalized": "sevilla-fc",
+                    "away_team_normalized": "rcd-espanyol-barcelona",
+                    "match_datetime": "2026-05-10T20:00:00"
+                },
+                {
+                    "home_team": "Real Oviedo",
+                    "away_team": "Getafe CF",
+                    "home_team_normalized": "real-oviedo",
+                    "away_team_normalized": "getafe-cf",
+                    "match_datetime": "2026-05-10T20:00:00"
+                },
+                {
+                    "home_team": "Rayo Vallecano",
+                    "away_team": "Girona FC",
+                    "home_team_normalized": "rayo-vallecano",
+                    "away_team_normalized": "girona-fc",
+                    "match_datetime": "2026-05-10T20:00:00"
+                }
+            ]
+        },
+        {
+            "matchday": "Jornada 36",
+            "date": "2027-05-13",
+            "matches": [
+                {
+                    "home_team": "Deportivo Alavés",
+                    "away_team": "FC Barcelona",
+                    "home_team_normalized": "deportivo-alaves",
+                    "away_team_normalized": "fc-barcelona",
+                    "match_datetime": "2026-05-13T20:00:00"
+                },
+                {
+                    "home_team": "Real Betis",
+                    "away_team": "Elche CF",
+                    "home_team_normalized": "real-betis-balompie",
+                    "away_team_normalized": "elche-cf",
+                    "match_datetime": "2026-05-13T20:00:00"
+                },
+                {
+                    "home_team": "RC Celta",
+                    "away_team": "Levante UD",
+                    "home_team_normalized": "celta-vigo",
+                    "away_team_normalized": "levante-ud",
+                    "match_datetime": "2026-05-13T20:00:00"
+                },
+                {
+                    "home_team": "Getafe CF",
+                    "away_team": "RCD Mallorca",
+                    "home_team_normalized": "getafe-cf",
+                    "away_team_normalized": "rcd-mallorca",
+                    "match_datetime": "2026-05-13T20:00:00"
+                },
+                {
+                    "home_team": "Girona FC",
+                    "away_team": "Real Sociedad",
+                    "home_team_normalized": "girona-fc",
+                    "away_team_normalized": "real-sociedad",
+                    "match_datetime": "2026-05-13T20:00:00"
+                },
+                {
+                    "home_team": "RCD Espanyol de Barcelona",
+                    "away_team": "Athletic Club",
+                    "home_team_normalized": "rcd-espanyol-barcelona",
+                    "away_team_normalized": "athletic-club-bilbao",
+                    "match_datetime": "2026-05-13T20:00:00"
+                },
+                {
+                    "home_team": "CA Osasuna",
+                    "away_team": "Atlético de Madrid",
+                    "home_team_normalized": "osasuna",
+                    "away_team_normalized": "atletico-madrid",
+                    "match_datetime": "2026-05-13T20:00:00"
+                },
+                {
+                    "home_team": "Valencia CF",
+                    "away_team": "Rayo Vallecano",
+                    "home_team_normalized": "valencia-cf",
+                    "away_team_normalized": "rayo-vallecano",
+                    "match_datetime": "2026-05-13T20:00:00"
+                },
+                {
+                    "home_team": "Villarreal CF",
+                    "away_team": "Sevilla FC",
+                    "home_team_normalized": "villarreal-cf",
+                    "away_team_normalized": "sevilla-fc",
+                    "match_datetime": "2026-05-13T20:00:00"
+                },
+                {
+                    "home_team": "Real Madrid",
+                    "away_team": "Real Oviedo",
+                    "home_team_normalized": "real-madrid",
+                    "away_team_normalized": "real-oviedo",
+                    "match_datetime": "2026-05-13T20:00:00"
+                }
+            ]
+        },
+        {
+            "matchday": "Jornada 37",
+            "date": "2027-05-17",
+            "matches": [
+                {
+                    "home_team": "Athletic Club",
+                    "away_team": "RC Celta",
+                    "home_team_normalized": "athletic-club-bilbao",
+                    "away_team_normalized": "celta-vigo",
+                    "match_datetime": "2026-05-17T20:00:00"
+                },
+                {
+                    "home_team": "Atlético de Madrid",
+                    "away_team": "Girona FC",
+                    "home_team_normalized": "atletico-madrid",
+                    "away_team_normalized": "girona-fc",
+                    "match_datetime": "2026-05-17T20:00:00"
+                },
+                {
+                    "home_team": "FC Barcelona",
+                    "away_team": "Real Betis",
+                    "home_team_normalized": "fc-barcelona",
+                    "away_team_normalized": "real-betis-balompie",
+                    "match_datetime": "2026-05-17T20:00:00"
+                },
+                {
+                    "home_team": "Elche CF",
+                    "away_team": "Getafe CF",
+                    "home_team_normalized": "elche-cf",
+                    "away_team_normalized": "getafe-cf",
+                    "match_datetime": "2026-05-17T20:00:00"
+                },
+                {
+                    "home_team": "Levante UD",
+                    "away_team": "RCD Mallorca",
+                    "home_team_normalized": "levante-ud",
+                    "away_team_normalized": "rcd-mallorca",
+                    "match_datetime": "2026-05-17T20:00:00"
+                },
+                {
+                    "home_team": "Rayo Vallecano",
+                    "away_team": "Villarreal CF",
+                    "home_team_normalized": "rayo-vallecano",
+                    "away_team_normalized": "villarreal-cf",
+                    "match_datetime": "2026-05-17T20:00:00"
+                },
+                {
+                    "home_team": "Real Sociedad",
+                    "away_team": "Valencia CF",
+                    "home_team_normalized": "real-sociedad",
+                    "away_team_normalized": "valencia-cf",
+                    "match_datetime": "2026-05-17T20:00:00"
+                },
+                {
+                    "home_team": "Real Oviedo",
+                    "away_team": "Deportivo Alavés",
+                    "home_team_normalized": "real-oviedo",
+                    "away_team_normalized": "deportivo-alaves",
+                    "match_datetime": "2026-05-17T20:00:00"
+                },
+                {
+                    "home_team": "CA Osasuna",
+                    "away_team": "RCD Espanyol de Barcelona",
+                    "home_team_normalized": "osasuna",
+                    "away_team_normalized": "rcd-espanyol-barcelona",
+                    "match_datetime": "2026-05-17T20:00:00"
+                },
+                {
+                    "home_team": "Sevilla FC",
+                    "away_team": "Real Madrid",
+                    "home_team_normalized": "sevilla-fc",
+                    "away_team_normalized": "real-madrid",
+                    "match_datetime": "2026-05-17T20:00:00"
+                }
+            ]
+        },
+        {
+            "matchday": "Jornada 38",
+            "date": "2027-05-24",
+            "matches": [
+                {
+                    "home_team": "Deportivo Alavés",
+                    "away_team": "Rayo Vallecano",
+                    "home_team_normalized": "deportivo-alaves",
+                    "away_team_normalized": "rayo-vallecano",
+                    "match_datetime": "2026-05-24T20:00:00"
+                },
+                {
+                    "home_team": "Real Betis",
+                    "away_team": "Levante UD",
+                    "home_team_normalized": "real-betis-balompie",
+                    "away_team_normalized": "levante-ud",
+                    "match_datetime": "2026-05-24T20:00:00"
+                },
+                {
+                    "home_team": "RC Celta",
+                    "away_team": "Sevilla FC",
+                    "home_team_normalized": "celta-vigo",
+                    "away_team_normalized": "sevilla-fc",
+                    "match_datetime": "2026-05-24T20:00:00"
+                },
+                {
+                    "home_team": "RCD Espanyol de Barcelona",
+                    "away_team": "Real Sociedad",
+                    "home_team_normalized": "rcd-espanyol-barcelona",
+                    "away_team_normalized": "real-sociedad",
+                    "match_datetime": "2026-05-24T20:00:00"
+                },
+                {
+                    "home_team": "Getafe CF",
+                    "away_team": "CA Osasuna",
+                    "home_team_normalized": "getafe-cf",
+                    "away_team_normalized": "osasuna",
+                    "match_datetime": "2026-05-24T20:00:00"
+                },
+                {
+                    "home_team": "RCD Mallorca",
+                    "away_team": "Real Oviedo",
+                    "home_team_normalized": "rcd-mallorca",
+                    "away_team_normalized": "real-oviedo",
+                    "match_datetime": "2026-05-24T20:00:00"
+                },
+                {
+                    "home_team": "Real Madrid",
+                    "away_team": "Athletic Club",
+                    "home_team_normalized": "real-madrid",
+                    "away_team_normalized": "athletic-club-bilbao",
+                    "match_datetime": "2026-05-24T20:00:00"
+                },
+                {
+                    "home_team": "Villarreal CF",
+                    "away_team": "Atlético de Madrid",
+                    "home_team_normalized": "villarreal-cf",
+                    "away_team_normalized": "atletico-madrid",
+                    "match_datetime": "2026-05-24T20:00:00"
+                },
+                {
+                    "home_team": "Valencia CF",
+                    "away_team": "FC Barcelona",
+                    "home_team_normalized": "valencia-cf",
+                    "away_team_normalized": "fc-barcelona",
+                    "match_datetime": "2026-05-24T20:00:00"
+                },
+                {
+                    "home_team": "Girona FC",
+                    "away_team": "Elche CF",
+                    "home_team_normalized": "girona-fc",
+                    "away_team_normalized": "elche-cf",
+                    "match_datetime": "2026-05-24T20:00:00"
+                }
+            ]
+        }
+    ]
+}

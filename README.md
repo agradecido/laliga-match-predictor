@@ -12,23 +12,34 @@ A soccer prediction platform ("Quiniela") for the Spanish Football League (LaLig
 
 ## Getting Started
 
+This project runs fully inside Docker — no need to install PHP, Composer, Node or a database on the host.
+
 ```bash
-composer install
-npm install
-
-cp .env.example .env
-php artisan key:generate
-
-touch database/database.sqlite
-php artisan migrate --seed
-
-npm run build   # or `npm run dev` for local development
-php artisan serve
+npm run docker:up      # builds (if needed) and starts the app, queue and vite containers
 ```
+
+The first boot installs Composer/npm dependencies, generates `.env`/`APP_KEY`, creates the SQLite database and runs migrations automatically.
+
+- App: http://localhost:8000
+- Vite dev server (HMR): http://localhost:5173
+
+```bash
+npm run docker:logs                              # follow logs from all services
+npm run docker:artisan -- migrate:fresh --seed   # run artisan commands
+npm run docker:sh                                # open a shell inside the app container
+npm run docker:down                              # stop and remove the containers
+```
+
+See [`.devcontainer/README.md`](.devcontainer/README.md) for more details on the stack.
 
 ## Development
 
 ```bash
-npm run dev          # Vite dev server with HMR
-php artisan test     # Run the test suite
+npm run docker:artisan -- test   # run the test suite inside the container
 ```
+
+## Data
+
+The LaLiga 2026/2027 match calendar (matchdays and fixtures) lives in [`resources/json/schedule-laliga-2026-2027.json`](resources/json/schedule-laliga-2026-2027.json), used to seed the quiniela's rounds and fixtures.
+
+Team logos live in [`resources/images/team-logos`](resources/images/team-logos), one SVG per team. Each file is named after the team's normalized slug, matching the `home_team_normalized` / `away_team_normalized` fields in the schedule JSON (e.g. `Deportivo Alavés` → `deportivo-alaves.svg`).
