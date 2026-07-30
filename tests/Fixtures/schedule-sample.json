@@ -1,0 +1,38 @@
+{
+    "season": "2026/2027",
+    "matchdays": [
+        {
+            "matchday": "Jornada 1",
+            "date": "2026-08-15",
+            "matches": [
+                {
+                    "home_team": "Team Alpha",
+                    "away_team": "Team Beta",
+                    "home_team_normalized": "team-alpha",
+                    "away_team_normalized": "team-beta",
+                    "match_datetime": "2026-08-15T19:30:00"
+                }
+            ]
+        },
+        {
+            "matchday": "Jornada 2",
+            "date": "2026-08-22",
+            "matches": [
+                {
+                    "home_team": "Team Alpha",
+                    "away_team": "Team Gamma",
+                    "home_team_normalized": "team-alpha",
+                    "away_team_normalized": "team-gamma",
+                    "match_datetime": "2026-08-22T19:30:00"
+                },
+                {
+                    "home_team": "Team Beta",
+                    "away_team": "Team Gamma",
+                    "home_team_normalized": "team-beta",
+                    "away_team_normalized": "team-gamma",
+                    "match_datetime": "2026-08-22T21:30:00"
+                }
+            ]
+        }
+    ]
+}
