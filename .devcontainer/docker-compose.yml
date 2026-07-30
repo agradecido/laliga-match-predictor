@@ -1,0 +1,45 @@
+name: laliga-match-predictor
+
+services:
+  app:
+    build:
+      context: ..
+      dockerfile: .devcontainer/php/Dockerfile
+    container_name: laliga-match-predictor-app
+    working_dir: /var/www/html
+    ports:
+      - "${APP_PORT:-8000}:8000"
+    volumes:
+      - ..:/var/www/html
+      - vendor:/var/www/html/vendor
+    tty: true
+
+  queue:
+    build:
+      context: ..
+      dockerfile: .devcontainer/php/Dockerfile
+    container_name: laliga-match-predictor-queue
+    working_dir: /var/www/html
+    entrypoint: ["wait-entrypoint.sh"]
+    command: ["php", "artisan", "queue:listen", "--tries=1"]
+    volumes:
+      - ..:/var/www/html
+      - vendor:/var/www/html/vendor
+    depends_on:
+      - app
+
+  vite:
+    build:
+      context: ..
+      dockerfile: .devcontainer/node/Dockerfile
+    container_name: laliga-match-predictor-vite
+    working_dir: /var/www/html
+    ports:
+      - "${VITE_PORT:-5173}:5173"
+    volumes:
+      - ..:/var/www/html
+      - node_modules:/var/www/html/node_modules
+
+volumes:
+  vendor:
+  node_modules:
