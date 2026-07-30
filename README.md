@@ -42,4 +42,4 @@ npm run docker:artisan -- test   # run the test suite inside the container
 
 The LaLiga 2026/2027 match calendar (matchdays and fixtures) lives in [`resources/json/schedule-laliga-2026-2027.json`](resources/json/schedule-laliga-2026-2027.json), used to seed the quiniela's rounds and fixtures.
 
-Team logos live in [`resources/images/team-logos`](resources/images/team-logos), one SVG per team. Each file is named after the team's normalized slug, matching the `home_team_normalized` / `away_team_normalized` fields in the schedule JSON (e.g. `Deportivo Alavés` → `deportivo-alaves.svg`).
+Team logos live in [`public/assets/images/team-logos`](public/assets/images/team-logos), one SVG per team, served directly at `/assets/images/team-logos/{slug}.svg`. Each file is named after the team's normalized slug, matching the `home_team_normalized` / `away_team_normalized` fields in the schedule JSON (e.g. `Deportivo Alavés` → `deportivo-alaves.svg`).

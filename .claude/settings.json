@@ -1,0 +1,46 @@
+{
+  "permissions": {
+    "ask": [
+      "Bash(rm -rf *)",
+      "Bash(rm -fr *)",
+      "Bash(git push --force*)",
+      "Bash(git reset --hard*)",
+      "Bash(git clean -f*)",
+      "Bash(git clean --force*)",
+      "Bash(sqlite3 *)",
+      "Bash(docker volume rm*)",
+      "Bash(docker compose down -v*)",
+      "Bash(docker compose -f .devcontainer/docker-compose.yml down -v*)",
+      "Bash(php artisan tinker*)",
+      "Bash(php artisan db:wipe*)",
+      "Bash(php artisan migrate:fresh*)",
+      "Bash(php artisan migrate:reset*)",
+      "Bash(docker compose -f .devcontainer/docker-compose.yml exec app php artisan tinker*)",
+      "Bash(docker compose -f .devcontainer/docker-compose.yml exec app php artisan db:wipe*)",
+      "Bash(docker compose -f .devcontainer/docker-compose.yml exec app php artisan migrate:fresh*)",
+      "Bash(docker compose -f .devcontainer/docker-compose.yml exec app php artisan migrate:reset*)",
+      "Bash(npm run docker:artisan -- tinker*)",
+      "Bash(npm run docker:artisan -- db:wipe*)",
+      "Bash(npm run docker:artisan -- migrate:fresh*)",
+      "Bash(npm run docker:artisan -- migrate:reset*)"
+    ],
+    "deny": [
+      "Read(.env)",
+      "Edit(.env)",
+      "Read(.env.local)",
+      "Edit(.env.local)",
+      "Read(.env.production)",
+      "Edit(.env.production)",
+      "Read(.env.staging)",
+      "Edit(.env.staging)",
+      "Read(.env.testing)",
+      "Edit(.env.testing)",
+      "Read(*.pem)",
+      "Edit(*.pem)",
+      "Read(*.key)",
+      "Edit(*.key)",
+      "Read(database/database.sqlite)",
+      "Edit(database/database.sqlite)"
+    ]
+  }
+}
