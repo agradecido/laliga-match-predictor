@@ -39,6 +39,25 @@ const showingNavigationDropdown = ref(false);
                                 >
                                     Dashboard
                                 </NavLink>
+                                <NavLink
+                                    :href="route('quiniela.index')"
+                                    :active="route().current('quiniela.index') || route().current('quiniela.show')"
+                                >
+                                    Quiniela
+                                </NavLink>
+                                <NavLink
+                                    :href="route('quiniela.leaderboard')"
+                                    :active="route().current('quiniela.leaderboard')"
+                                >
+                                    Leaderboard
+                                </NavLink>
+                                <NavLink
+                                    v-if="$page.props.auth.user.is_admin"
+                                    :href="route('admin.results.index')"
+                                    :active="route().current('admin.results.*')"
+                                >
+                                    Admin
+                                </NavLink>
                             </div>
                         </div>
 
@@ -145,6 +164,25 @@ const showingNavigationDropdown = ref(false);
                             :active="route().current('dashboard')"
                         >
                             Dashboard
+                        </ResponsiveNavLink>
+                        <ResponsiveNavLink
+                            :href="route('quiniela.index')"
+                            :active="route().current('quiniela.index') || route().current('quiniela.show')"
+                        >
+                            Quiniela
+                        </ResponsiveNavLink>
+                        <ResponsiveNavLink
+                            :href="route('quiniela.leaderboard')"
+                            :active="route().current('quiniela.leaderboard')"
+                        >
+                            Leaderboard
+                        </ResponsiveNavLink>
+                        <ResponsiveNavLink
+                            v-if="$page.props.auth.user.is_admin"
+                            :href="route('admin.results.index')"
+                            :active="route().current('admin.results.*')"
+                        >
+                            Admin
                         </ResponsiveNavLink>
                     </div>
 
