@@ -104,6 +104,20 @@ function sideState(fixture: QuinielaFixture, side: 'home' | 'away') {
     return (choice === '1') === (side === 'home') ? 'backed' : 'faded';
 }
 
+function formatKickoff(value: string): string {
+    const [datePart, timePart] = value.split(' ');
+    const [year, month, day] = datePart.split('-').map(Number);
+    const [hour, minute] = timePart.split(':').map(Number);
+    const date = new Date(year, month - 1, day);
+
+    const weekday = new Intl.DateTimeFormat('es-ES', { weekday: 'short' }).format(date);
+    const dayMonth = new Intl.DateTimeFormat('es-ES', { day: 'numeric', month: 'short' }).format(date);
+    const time = `${String(hour).padStart(2, '0')}:${String(minute).padStart(2, '0')}`;
+    const label = `${weekday} ${dayMonth}`;
+
+    return `${label.charAt(0).toUpperCase()}${label.slice(1)} · ${time}`;
+}
+
 function choiceDescription(fixture: QuinielaFixture, choice: PredictionChoice) {
     if (choice === '1') {
         return `Gana ${fixture.home_team.name}`;
@@ -204,14 +218,23 @@ function choiceDescription(fixture: QuinielaFixture, choice: PredictionChoice) {
                                     : 'hover:shadow-md hover:ring-gray-900/10 dark:hover:ring-white/20 motion-reduce:transition-none'
                             "
                         >
-                            <div class="flex items-center justify-between gap-3 px-4 pt-3 sm:px-5">
+                            <div class="grid grid-cols-[auto_1fr_auto] items-center gap-3 px-4 pt-3 sm:px-5">
                                 <span
                                     class="font-mono text-[11px] font-semibold tabular-nums tracking-[0.18em] text-gray-500 dark:text-gray-400"
                                 >
                                     {{ String(index + 1).padStart(2, '0') }}
                                 </span>
 
-                                <div aria-live="polite" class="flex min-h-[1.25rem] items-center">
+                                <div class="truncate text-center">
+                                    <span
+                                        v-if="fixture.kickoff_at"
+                                        class="font-mono text-[11px] font-medium tabular-nums text-gray-400 dark:text-gray-500"
+                                    >
+                                        {{ formatKickoff(fixture.kickoff_at) }}
+                                    </span>
+                                </div>
+
+                                <div aria-live="polite" class="flex min-h-[1.25rem] items-center justify-end">
                                     <Transition
                                         enter-active-class="transition duration-200 ease-out motion-reduce:transition-none"
                                         enter-from-class="translate-y-0.5 opacity-0"

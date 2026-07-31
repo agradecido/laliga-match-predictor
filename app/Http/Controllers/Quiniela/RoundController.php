@@ -57,6 +57,7 @@ class RoundController extends Controller
                 'id' => $fixture->id,
                 'home_team' => $fixture->homeTeam->only('name', 'normalized_name'),
                 'away_team' => $fixture->awayTeam->only('name', 'normalized_name'),
+                'kickoff_at' => $fixture->kickoff_at?->toDateTimeString(),
                 'choice' => $predictions->get($fixture->id)?->choice,
             ]),
         ]);
