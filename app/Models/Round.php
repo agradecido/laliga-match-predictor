@@ -42,4 +42,17 @@ class Round extends Model
     {
         return Carbon::now()->greaterThanOrEqualTo($this->locksAt());
     }
+
+    public function closesAt(): Carbon
+    {
+        return $this->fixtures->max('kickoff_at')->copy()->addDay();
+    }
+
+    public static function current(): ?self
+    {
+        $rounds = static::query()->with('fixtures')->orderBy('number')->get();
+
+        return $rounds->first(fn (self $round) => Carbon::now()->lessThanOrEqualTo($round->closesAt()))
+            ?? $rounds->last();
+    }
 }

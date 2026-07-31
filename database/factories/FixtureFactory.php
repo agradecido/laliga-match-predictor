@@ -20,6 +20,7 @@ class FixtureFactory extends Factory
             'round_id' => Round::factory(),
             'home_team_id' => Team::factory(),
             'away_team_id' => Team::factory(),
+            'kickoff_at' => now()->addWeek(),
             'home_score' => null,
             'away_score' => null,
         ];

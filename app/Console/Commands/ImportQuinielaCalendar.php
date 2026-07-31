@@ -48,11 +48,16 @@ class ImportQuinielaCalendar extends Command
                     ['name' => $match['away_team']],
                 );
 
-                Fixture::firstOrCreate([
-                    'round_id' => $round->id,
-                    'home_team_id' => $homeTeam->id,
-                    'away_team_id' => $awayTeam->id,
-                ]);
+                Fixture::updateOrCreate(
+                    [
+                        'round_id' => $round->id,
+                        'home_team_id' => $homeTeam->id,
+                        'away_team_id' => $awayTeam->id,
+                    ],
+                    [
+                        'kickoff_at' => $match['match_datetime'],
+                    ],
+                );
             }
         }
 

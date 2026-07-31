@@ -9,11 +9,18 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 
-#[Fillable(['round_id', 'home_team_id', 'away_team_id', 'home_score', 'away_score'])]
+#[Fillable(['round_id', 'home_team_id', 'away_team_id', 'kickoff_at', 'home_score', 'away_score'])]
 class Fixture extends Model
 {
     /** @use HasFactory<FixtureFactory> */
     use HasFactory;
+
+    protected function casts(): array
+    {
+        return [
+            'kickoff_at' => 'datetime',
+        ];
+    }
 
     public function round(): BelongsTo
     {

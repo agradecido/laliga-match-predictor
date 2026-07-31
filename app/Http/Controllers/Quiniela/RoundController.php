@@ -10,6 +10,13 @@ use Inertia\Response;
 
 class RoundController extends Controller
 {
+    public static function homeUrl(): string
+    {
+        $round = Round::current();
+
+        return $round ? route('quiniela.show', $round) : route('quiniela.index');
+    }
+
     public function index(): Response
     {
         $rounds = Round::query()

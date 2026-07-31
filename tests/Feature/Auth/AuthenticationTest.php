@@ -1,6 +1,13 @@
 <?php
 
+use App\Models\Fixture;
+use App\Models\Round;
 use App\Models\User;
+use Illuminate\Support\Carbon;
+
+afterEach(function () {
+    Carbon::setTestNow();
+});
 
 test('login screen can be rendered', function () {
     $response = $this->get('/login');
@@ -17,7 +24,23 @@ test('users can authenticate using the login screen', function () {
     ]);
 
     $this->assertAuthenticated();
-    $response->assertRedirect(route('dashboard', absolute: false));
+    $response->assertRedirect(route('quiniela.index', absolute: false));
+});
+
+test('login redirects to the current quiniela round when one is scheduled', function () {
+    Carbon::setTestNow('2026-08-15 12:00:00');
+
+    $round = Round::factory()->create(['number' => 1]);
+    Fixture::factory()->for($round)->create(['kickoff_at' => '2026-08-17 21:00:00']);
+
+    $user = User::factory()->create();
+
+    $response = $this->post('/login', [
+        'email' => $user->email,
+        'password' => 'password',
+    ]);
+
+    $response->assertRedirect(route('quiniela.show', $round, absolute: false));
 });
 
 test('users can not authenticate with invalid password', function () {
