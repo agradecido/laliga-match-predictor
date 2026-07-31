@@ -12,4 +12,5 @@ export type PageProps<
     auth: {
         user: User;
     };
+    currentRoundId: number | null;
 };

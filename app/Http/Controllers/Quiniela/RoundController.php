@@ -10,11 +10,13 @@ use Inertia\Response;
 
 class RoundController extends Controller
 {
-    public static function homeUrl(): string
+    public static function homeUrl(bool $absolute = true): string
     {
         $round = Round::current();
 
-        return $round ? route('quiniela.show', $round) : route('quiniela.index');
+        return $round
+            ? route('quiniela.show', $round, absolute: $absolute)
+            : route('quiniela.index', absolute: $absolute);
     }
 
     public function index(): Response

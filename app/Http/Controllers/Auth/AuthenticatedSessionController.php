@@ -34,7 +34,7 @@ class AuthenticatedSessionController extends Controller
 
         $request->session()->regenerate();
 
-        return redirect()->intended(RoundController::homeUrl());
+        return redirect()->intended(RoundController::homeUrl(absolute: false));
     }
 
     /**

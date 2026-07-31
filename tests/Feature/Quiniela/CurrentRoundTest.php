@@ -68,3 +68,14 @@ it('falls back to the last round once the whole season has closed', function () 
 it('returns null when no rounds exist', function () {
     expect(Round::current())->toBeNull();
 });
+
+it('skips a round with no fixtures instead of crashing', function () {
+    Carbon::setTestNow('2026-08-15 12:00:00');
+
+    $emptyRound = Round::factory()->create(['number' => 1]);
+
+    $round2 = Round::factory()->create(['number' => 2]);
+    Fixture::factory()->for($round2)->create(['kickoff_at' => '2026-08-24 21:00:00']);
+
+    expect(Round::current()->is($round2))->toBeTrue();
+});
