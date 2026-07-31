@@ -37,17 +37,18 @@ function clearStatusLater(fixtureId: number, from: SaveStatus, delay: number) {
 }
 
 function pick(fixture: QuinielaFixture, choice: PredictionChoice) {
-    if (props.round.is_locked || selections[fixture.id] === choice) {
+    if (props.round.is_locked) {
         return;
     }
 
     const previous = selections[fixture.id];
-    selections[fixture.id] = choice;
+    const nextChoice = previous === choice ? null : choice;
+    selections[fixture.id] = nextChoice;
     status[fixture.id] = 'saving';
 
     router.post(
         route('quiniela.predictions.store', props.round.id),
-        { predictions: [{ fixture_id: fixture.id, choice }] },
+        { predictions: [{ fixture_id: fixture.id, choice: nextChoice }] },
         {
             preserveScroll: true,
             preserveState: true,
@@ -143,7 +144,7 @@ function choiceDescription(fixture: QuinielaFixture, choice: PredictionChoice) {
                                 {{
                                     round.is_locked
                                         ? 'La jornada empezó: ya no se pueden cambiar los pronósticos.'
-                                        : 'Toca 1, X o 2 en cada partido. Se guarda solo.'
+                                        : ''
                                 }}
                             </p>
                         </div>

@@ -23,7 +23,7 @@ class StorePredictionsRequest extends FormRequest
                 'integer',
                 Rule::exists('fixtures', 'id')->where('round_id', $round->id),
             ],
-            'predictions.*.choice' => ['required', Rule::in(['1', 'X', '2'])],
+            'predictions.*.choice' => ['nullable', Rule::in(['1', 'X', '2'])],
         ];
     }
 }

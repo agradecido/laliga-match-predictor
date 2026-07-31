@@ -41,6 +41,23 @@ it('updates an existing prediction instead of duplicating it', function () {
         ->and(Prediction::where(['user_id' => $user->id, 'fixture_id' => $fixture->id])->sole()->choice)->toBe('X');
 });
 
+it('clears an existing prediction when the choice is sent as null', function () {
+    $user = User::factory()->create();
+    $round = Round::factory()->open()->create();
+    $fixture = Fixture::factory()->for($round)->create();
+
+    $this->actingAs($user)->post("/quiniela/{$round->id}/predictions", [
+        'predictions' => [['fixture_id' => $fixture->id, 'choice' => '1']],
+    ]);
+
+    $response = $this->actingAs($user)->post("/quiniela/{$round->id}/predictions", [
+        'predictions' => [['fixture_id' => $fixture->id, 'choice' => null]],
+    ]);
+
+    $response->assertRedirect();
+    expect(Prediction::where(['user_id' => $user->id, 'fixture_id' => $fixture->id])->exists())->toBeFalse();
+});
+
 it('rejects predictions for a locked round and writes nothing', function () {
     $user = User::factory()->create();
     $round = Round::factory()->locked()->create();

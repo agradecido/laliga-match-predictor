@@ -17,13 +17,18 @@ class PredictionController extends Controller
 
         DB::transaction(function () use ($request, $data) {
             foreach ($data['predictions'] as $pick) {
-                Prediction::updateOrCreate(
-                    [
-                        'user_id' => $request->user()->id,
-                        'fixture_id' => $pick['fixture_id'],
-                    ],
-                    ['choice' => $pick['choice']],
-                );
+                $keys = [
+                    'user_id' => $request->user()->id,
+                    'fixture_id' => $pick['fixture_id'],
+                ];
+
+                if ($pick['choice'] === null) {
+                    Prediction::where($keys)->delete();
+
+                    continue;
+                }
+
+                Prediction::updateOrCreate($keys, ['choice' => $pick['choice']]);
             }
         });
 

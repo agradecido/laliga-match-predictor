@@ -2,11 +2,20 @@
 import ApplicationLogo from '@/Components/ApplicationLogo.vue';
 import ThemeToggle from '@/Components/ThemeToggle.vue';
 import { Link } from '@inertiajs/vue3';
+
+withDefaults(
+    defineProps<{
+        logoClass?: string;
+    }>(),
+    {
+        logoClass: 'h-20 w-20',
+    },
+);
 </script>
 
 <template>
     <div
-        class="flex min-h-screen flex-col items-center bg-gray-100 pt-6 sm:justify-center sm:pt-0 dark:bg-gray-900"
+        class="flex min-h-screen flex-col items-center bg-gray-100 pt-6 sm:justify-center sm:pt-0 dark:bg-gray-950"
     >
         <div class="absolute right-4 top-4">
             <ThemeToggle />
@@ -14,7 +23,7 @@ import { Link } from '@inertiajs/vue3';
 
         <div>
             <Link href="/">
-                <ApplicationLogo class="h-20 w-20" />
+                <ApplicationLogo :class="logoClass" />
             </Link>
         </div>
 
