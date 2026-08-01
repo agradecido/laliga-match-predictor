@@ -9,12 +9,12 @@ defineProps<{
 </script>
 
 <template>
-    <Head title="Admin - Results" />
+    <Head title="Admin - Resultados" />
 
     <AuthenticatedLayout>
         <template #header>
             <h2 class="text-xl font-semibold leading-tight text-gray-800 dark:text-gray-100">
-                Enter results
+                Introducir resultados
             </h2>
         </template>
 

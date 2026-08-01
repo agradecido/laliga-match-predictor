@@ -9,12 +9,12 @@ defineProps<{
 </script>
 
 <template>
-    <Head title="Leaderboard" />
+    <Head title="Clasificación" />
 
     <AuthenticatedLayout>
         <template #header>
             <h2 class="text-xl font-semibold leading-tight text-gray-800 dark:text-gray-100">
-                Leaderboard
+                Clasificación
             </h2>
         </template>
 
@@ -26,8 +26,8 @@ defineProps<{
                             <thead class="bg-gray-50 text-xs uppercase text-gray-500 dark:bg-gray-900/40 dark:text-gray-400">
                                 <tr>
                                     <th class="px-4 py-3 sm:px-6">#</th>
-                                    <th class="px-4 py-3 sm:px-6">Player</th>
-                                    <th class="px-4 py-3 sm:px-6">Points</th>
+                                    <th class="px-4 py-3 sm:px-6">Jugador</th>
+                                    <th class="px-4 py-3 sm:px-6">Puntos</th>
                                 </tr>
                             </thead>
                             <tbody class="divide-y divide-gray-200 dark:divide-gray-700">

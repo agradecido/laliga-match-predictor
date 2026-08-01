@@ -62,7 +62,7 @@ const isCurrentRoundActive = computed(() =>
                                     :href="route('quiniela.leaderboard')"
                                     :active="route().current('quiniela.leaderboard')"
                                 >
-                                    Leaderboard
+                                    Clasificación
                                 </NavLink>
                                 <NavLink
                                     v-if="$page.props.auth.user.is_admin"
@@ -108,14 +108,14 @@ const isCurrentRoundActive = computed(() =>
                                         <DropdownLink
                                             :href="route('profile.edit')"
                                         >
-                                            Profile
+                                            Perfil
                                         </DropdownLink>
                                         <DropdownLink
                                             :href="route('logout')"
                                             method="post"
                                             as="button"
                                         >
-                                            Log Out
+                                            Cerrar sesión
                                         </DropdownLink>
                                     </template>
                                 </Dropdown>
@@ -192,7 +192,7 @@ const isCurrentRoundActive = computed(() =>
                             :href="route('quiniela.leaderboard')"
                             :active="route().current('quiniela.leaderboard')"
                         >
-                            Leaderboard
+                            Clasificación
                         </ResponsiveNavLink>
                         <ResponsiveNavLink
                             v-if="$page.props.auth.user.is_admin"
@@ -220,14 +220,14 @@ const isCurrentRoundActive = computed(() =>
 
                         <div class="mt-3 space-y-1">
                             <ResponsiveNavLink :href="route('profile.edit')">
-                                Profile
+                                Perfil
                             </ResponsiveNavLink>
                             <ResponsiveNavLink
                                 :href="route('logout')"
                                 method="post"
                                 as="button"
                             >
-                                Log Out
+                                Cerrar sesión
                             </ResponsiveNavLink>
                         </div>
                     </div>

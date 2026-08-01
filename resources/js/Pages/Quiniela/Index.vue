@@ -42,7 +42,7 @@ defineProps<{
                                         ? 'bg-red-100 text-red-700 dark:bg-red-500/10 dark:text-red-400'
                                         : 'bg-green-100 text-green-700 dark:bg-green-500/10 dark:text-green-400'"
                                 >
-                                    {{ round.is_locked ? 'Locked' : 'Open' }}
+                                    {{ round.is_locked ? 'Cerrada' : 'Abierta' }}
                                 </span>
                             </Link>
                         </li>

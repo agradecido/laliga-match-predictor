@@ -28,12 +28,12 @@ function submit() {
 </script>
 
 <template>
-    <Head :title="`Jornada ${round.number} - Results`" />
+    <Head :title="`Jornada ${round.number} - Resultados`" />
 
     <AuthenticatedLayout>
         <template #header>
             <h2 class="text-xl font-semibold leading-tight text-gray-800 dark:text-gray-100">
-                Jornada {{ round.number }} results
+                Resultados de la jornada {{ round.number }}
             </h2>
         </template>
 
@@ -76,7 +76,7 @@ function submit() {
                                 :disabled="form.processing"
                                 type="submit"
                             >
-                                Save results
+                                Guardar resultados
                             </PrimaryButton>
                         </div>
                     </form>
