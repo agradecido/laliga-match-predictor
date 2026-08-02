@@ -64,13 +64,44 @@ const isCurrentRoundActive = computed(() =>
                                 >
                                     Clasificación
                                 </NavLink>
-                                <NavLink
-                                    v-if="$page.props.auth.user.is_admin"
-                                    :href="route('admin.results.index')"
-                                    :active="route().current('admin.results.*')"
-                                >
-                                    Admin
-                                </NavLink>
+                                <div v-if="$page.props.auth.user.is_admin" class="relative flex items-center">
+                                    <Dropdown align="left" width="48">
+                                        <template #trigger>
+                                            <button
+                                                type="button"
+                                                class="inline-flex items-center border-b-2 px-1 pt-1 text-sm font-medium leading-5 transition duration-150 ease-in-out focus:outline-none"
+                                                :class="route().current('admin.*')
+                                                    ? 'border-indigo-400 text-gray-900 dark:border-indigo-600 dark:text-gray-100'
+                                                    : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 dark:text-gray-400 dark:hover:border-gray-700 dark:hover:text-gray-300'"
+                                            >
+                                                Admin
+                                            </button>
+                                        </template>
+
+                                        <template #content>
+                                            <DropdownLink
+                                                :href="route('admin.rounds.index')"
+                                            >
+                                                Jornadas
+                                            </DropdownLink>
+                                            <DropdownLink
+                                                :href="route('admin.users.index')"
+                                            >
+                                                Jugadores
+                                            </DropdownLink>
+                                            <DropdownLink
+                                                :href="route('admin.predictions.index')"
+                                            >
+                                                Pronósticos
+                                            </DropdownLink>
+                                            <DropdownLink
+                                                :href="route('admin.results.index')"
+                                            >
+                                                Resultados
+                                            </DropdownLink>
+                                        </template>
+                                    </Dropdown>
+                                </div>
                             </div>
                         </div>
 
@@ -194,13 +225,41 @@ const isCurrentRoundActive = computed(() =>
                         >
                             Clasificación
                         </ResponsiveNavLink>
-                        <ResponsiveNavLink
-                            v-if="$page.props.auth.user.is_admin"
-                            :href="route('admin.results.index')"
-                            :active="route().current('admin.results.*')"
-                        >
+                    </div>
+
+                    <div
+                        v-if="$page.props.auth.user.is_admin"
+                        class="border-t border-gray-200 pb-1 pt-4 dark:border-gray-700"
+                    >
+                        <div class="px-4 text-xs font-semibold uppercase tracking-wider text-gray-400 dark:text-gray-500">
                             Admin
-                        </ResponsiveNavLink>
+                        </div>
+                        <div class="mt-3 space-y-1">
+                            <ResponsiveNavLink
+                                :href="route('admin.rounds.index')"
+                                :active="route().current('admin.rounds.*')"
+                            >
+                                Jornadas
+                            </ResponsiveNavLink>
+                            <ResponsiveNavLink
+                                :href="route('admin.users.index')"
+                                :active="route().current('admin.users.*')"
+                            >
+                                Jugadores
+                            </ResponsiveNavLink>
+                            <ResponsiveNavLink
+                                :href="route('admin.predictions.index')"
+                                :active="route().current('admin.predictions.*')"
+                            >
+                                Pronósticos
+                            </ResponsiveNavLink>
+                            <ResponsiveNavLink
+                                :href="route('admin.results.index')"
+                                :active="route().current('admin.results.*')"
+                            >
+                                Resultados
+                            </ResponsiveNavLink>
+                        </div>
                     </div>
 
                     <!-- Responsive Settings Options -->
