@@ -20,9 +20,11 @@ const form = useForm({
 
 function submit() {
     form.transform((data) => ({
-        scores: data.scores.filter(
-            (score) => score.home_score !== null && score.away_score !== null,
-        ),
+        scores: data.scores.map((score) => ({
+            fixture_id: score.fixture_id,
+            home_score: typeof score.home_score === 'number' ? score.home_score : null,
+            away_score: typeof score.away_score === 'number' ? score.away_score : null,
+        })),
     })).put(route('admin.results.update', props.round.id));
 }
 </script>

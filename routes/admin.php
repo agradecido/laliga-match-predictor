@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\PotController;
 use App\Http\Controllers\Admin\PredictionsController;
 use App\Http\Controllers\Admin\ResultsController;
 use App\Http\Controllers\Admin\RoundController;
@@ -28,4 +29,9 @@ Route::middleware(['auth', 'admin'])->prefix('admin')->name('admin.')->group(fun
     Route::get('/predictions', [PredictionsController::class, 'index'])->name('predictions.index');
     Route::get('/predictions/{round}', [PredictionsController::class, 'edit'])->name('predictions.edit');
     Route::put('/predictions/{round}', [PredictionsController::class, 'update'])->name('predictions.update');
+
+    Route::get('/pot', [PotController::class, 'index'])->name('pot.index');
+    Route::put('/pot/fee', [PotController::class, 'updateFee'])->name('pot.fee.update');
+    Route::post('/pot/payments/{user}/toggle', [PotController::class, 'togglePayment'])->name('pot.payments.toggle');
+    Route::post('/pot/payout', [PotController::class, 'payout'])->name('pot.payout');
 });

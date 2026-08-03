@@ -32,3 +32,12 @@ export interface LeaderboardEntry {
     name: string;
     points: number;
 }
+
+export interface PotSummary {
+    entry_fee: number;
+    total_collected: number;
+    total_expected: number;
+    has_paid: boolean;
+    winner_name: string | null;
+    payout_at: string | null;
+}

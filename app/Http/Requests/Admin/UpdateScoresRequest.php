@@ -23,8 +23,8 @@ class UpdateScoresRequest extends FormRequest
                 'integer',
                 Rule::exists('fixtures', 'id')->where('round_id', $round->id),
             ],
-            'scores.*.home_score' => ['required', 'integer', 'min:0'],
-            'scores.*.away_score' => ['required', 'integer', 'min:0'],
+            'scores.*.home_score' => ['nullable', 'integer', 'min:0'],
+            'scores.*.away_score' => ['nullable', 'integer', 'min:0'],
         ];
     }
 }

@@ -396,6 +396,34 @@ function choiceDescription(fixture: QuinielaFixture, choice: PredictionChoice) {
                     </li>
                 </ul>
 
+                <div
+                    v-if="total > 0"
+                    class="mt-4 flex flex-wrap items-center justify-between gap-x-6 gap-y-2 rounded-2xl bg-white p-5 shadow-sm ring-1 ring-gray-900/5 sm:mt-5 sm:p-6 dark:bg-gray-800 dark:ring-white/10"
+                >
+                    <p class="text-sm text-gray-500 dark:text-gray-400">
+                        <span class="font-mono font-semibold tabular-nums text-gray-900 dark:text-gray-100">{{
+                            marked
+                        }}</span>
+                        <span class="font-mono tabular-nums text-gray-400 dark:text-gray-500">/{{ total }}</span>
+                        marcados
+                    </p>
+
+                    <p
+                        class="text-sm font-medium"
+                        :class="
+                            marked === total
+                                ? 'text-emerald-700 dark:text-emerald-300'
+                                : 'text-gray-500 dark:text-gray-400'
+                        "
+                    >
+                        {{
+                            marked === total
+                                ? `¡Listo! Has marcado los ${total} pronósticos`
+                                : `Te faltan ${total - marked} pronósticos`
+                        }}
+                    </p>
+                </div>
+
                 <p
                     v-else
                     class="mt-4 rounded-2xl bg-white p-10 text-center text-sm text-gray-500 shadow-sm ring-1 ring-gray-900/5 dark:bg-gray-800 dark:text-gray-400 dark:ring-white/10"

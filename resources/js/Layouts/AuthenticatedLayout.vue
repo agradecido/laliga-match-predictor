@@ -56,7 +56,7 @@ const isCurrentRoundActive = computed(() =>
                                     :href="route('quiniela.index')"
                                     :active="route().current('quiniela.index') || route().current('quiniela.show')"
                                 >
-                                    Quiniela
+                                    Liga
                                 </NavLink>
                                 <NavLink
                                     :href="route('quiniela.leaderboard')"
@@ -98,6 +98,11 @@ const isCurrentRoundActive = computed(() =>
                                                 :href="route('admin.results.index')"
                                             >
                                                 Resultados
+                                            </DropdownLink>
+                                            <DropdownLink
+                                                :href="route('admin.pot.index')"
+                                            >
+                                                Bote
                                             </DropdownLink>
                                         </template>
                                     </Dropdown>
@@ -217,7 +222,7 @@ const isCurrentRoundActive = computed(() =>
                             :href="route('quiniela.index')"
                             :active="route().current('quiniela.index') || route().current('quiniela.show')"
                         >
-                            Quiniela
+                            Jornadas
                         </ResponsiveNavLink>
                         <ResponsiveNavLink
                             :href="route('quiniela.leaderboard')"
@@ -258,6 +263,12 @@ const isCurrentRoundActive = computed(() =>
                                 :active="route().current('admin.results.*')"
                             >
                                 Resultados
+                            </ResponsiveNavLink>
+                            <ResponsiveNavLink
+                                :href="route('admin.pot.index')"
+                                :active="route().current('admin.pot.*')"
+                            >
+                                Bote
                             </ResponsiveNavLink>
                         </div>
                     </div>

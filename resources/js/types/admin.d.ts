@@ -54,3 +54,17 @@ export interface AdminPlayerPicks {
     name: string;
     picks: AdminPlayerPick[];
 }
+
+export interface AdminPotSeason {
+    id: number;
+    name: string;
+    entry_fee: number | null;
+    winner_name: string | null;
+    payout_at: string | null;
+}
+
+export interface AdminPotPlayer {
+    id: number;
+    name: string;
+    has_paid: boolean;
+}

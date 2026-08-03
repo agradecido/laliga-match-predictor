@@ -53,6 +53,20 @@ it('rejects a fixture that belongs to a different round', function () {
     expect($foreignFixture->refresh()->home_score)->toBeNull();
 });
 
+it('clears a previously saved score when it is submitted as null', function () {
+    $admin = User::factory()->create(['is_admin' => true]);
+    $round = Round::factory()->create();
+    $fixture = Fixture::factory()->for($round)->create(['home_score' => 2, 'away_score' => 1]);
+
+    $response = $this->actingAs($admin)->put("/admin/results/{$round->id}", [
+        'scores' => [['fixture_id' => $fixture->id, 'home_score' => null, 'away_score' => null]],
+    ]);
+
+    $response->assertRedirect();
+    expect($fixture->refresh()->home_score)->toBeNull()
+        ->and($fixture->refresh()->away_score)->toBeNull();
+});
+
 it('allows submitting scores for an already-locked round', function () {
     $admin = User::factory()->create(['is_admin' => true]);
     $round = Round::factory()->locked()->create();
